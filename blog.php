@@ -30,7 +30,7 @@
     <div class="offcanvas-menu-overlay"></div>
     <div class="offcanvas-menu-wrapper">
         <div class="offcanvas__logo">
-            <a href="./index.html"><img src="img/logo.png" alt=""></a>
+            <a href="./index.php"><img src="img/logo.png" alt=""></a>
         </div>
         <div id="mobile-menu-wrap"></div>
         <div class="offcanvas__btn__widget">
@@ -38,8 +38,8 @@
         </div>
         <div class="offcanvas__widget">
             <ul>
-                <li><span class="icon_pin_alt"></span> 96 Ernser Vista Suite 437, NY, US</li>
-                <li><span class="icon_phone"></span> (123) 456-78-910</li>
+                <li><span class="icon_pin_alt"></span> 12 Chua Boc, Dong Da District, Ha Noi City, Viet Nam</li>
+                <li><span class="icon_phone"></span> (+84)967572628</li>
             </ul>
         </div>
         <div class="offcanvas__language">
@@ -67,8 +67,8 @@
                 <div class="row">
                     <div class="col-lg-7">
                         <ul class="header__top__widget">
-                            <li><span class="icon_pin_alt"></span> 96 Ernser Vista Suite 437, NY, US</li>
-                            <li><span class="icon_phone"></span> (123) 456-78-910</li>
+                            <li><span class="icon_pin_alt"></span> 12 Chua Boc, Dong Da District, Ha Noi City, Viet Nam</li>
+                            <li><span class="icon_phone"></span> (+84)967572628</li>
                         </ul>
                     </div>
                     <div class="col-lg-5">
@@ -98,25 +98,25 @@
                 <div class="row">
                     <div class="col-lg-2">
                         <div class="header__logo">
-                            <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                            <a href="./index.php"><img src="img/logo.png" alt=""></a>
                         </div>
                     </div>
                     <div class="col-lg-10">
                         <div class="header__nav">
                             <nav class="header__menu">
                                 <ul class="menu__class">
-                                    <li><a href="./index.html">Home</a></li>
-                                    <li><a href="./rooms.html">Rooms</a></li>
-                                    <li><a href="./about.html">About Us</a></li>
+                                    <li><a href="./index.php">Home</a></li>
+                                    <li><a href="./rooms.php">Rooms</a></li>
+                                    <li><a href="./about.php">About Us</a></li>
                                     <li><a href="#">Pages</a>
                                         <ul class="dropdown">
-                                            <li><a href="./about.html">About Us</a></li>
-                                            <li><a href="./room-details.html">Room Details</a></li>
-                                            <li><a href="./blog-details.html">Blog Details</a></li>
+                                            <li><a href="./about.php">About Us</a></li>
+                                            <li><a href="./room-details.php">Room Details</a></li>
+                                            <li><a href="./blog-details.php">Blog Details</a></li>
                                         </ul>
                                     </li>
-                                    <li class="active"><a href="./blog.html">News</a></li>
-                                    <li><a href="./contact.html">Contact</a></li>
+                                    <li class="active"><a href="./blog.php">News</a></li>
+                                    <li><a href="./contact.php">Contact</a></li>
                                 </ul>
                             </nav>
                             <div class="header__nav__widget">
@@ -141,7 +141,7 @@
                     <div class="breadcrumb__text">
                         <h1>Our Blog</h1>
                         <div class="breadcrumb__links">
-                            <a href="./index.html">Home</a>
+                            <a href="./index.php">Home</a>
                             <span>Blog</span>
                         </div>
                     </div>
@@ -359,7 +359,7 @@
                             <div class="footer__logo">
                                 <a href="#"><img src="img/logo.png" alt=""></a>
                             </div>
-                            <h4>(123) 456-78-91096</h4>
+                            <h4>(+84)96757262896</h4>
                             <ul>
                                 <li>Ernser Vista Suite 437, NY</li>
                                 <li>Info.colorlib@gmail.com</li>

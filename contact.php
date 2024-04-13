@@ -30,7 +30,7 @@
     <div class="offcanvas-menu-overlay"></div>
     <div class="offcanvas-menu-wrapper">
         <div class="offcanvas__logo">
-            <a href="./index.html"><img src="img/logo.png" alt=""></a>
+            <a href="./index.php"><img src="img/logo.png" alt=""></a>
         </div>
         <div id="mobile-menu-wrap"></div>
         <div class="offcanvas__btn__widget">
@@ -38,8 +38,8 @@
         </div>
         <div class="offcanvas__widget">
             <ul>
-                <li><span class="icon_pin_alt"></span> 96 Ernser Vista Suite 437, NY, US</li>
-                <li><span class="icon_phone"></span> (123) 456-78-910</li>
+                <li><span class="icon_pin_alt"></span> 12 Chua Boc, Dong Da District, Ha Noi City, Viet Nam</li>
+                <li><span class="icon_phone"></span> (+84)967572628</li>
             </ul>
         </div>
         <div class="offcanvas__language">
@@ -67,8 +67,8 @@
                 <div class="row">
                     <div class="col-lg-7">
                         <ul class="header__top__widget">
-                            <li><span class="icon_pin_alt"></span> 96 Ernser Vista Suite 437, NY, US</li>
-                            <li><span class="icon_phone"></span> (123) 456-78-910</li>
+                            <li><span class="icon_pin_alt"></span>12 Chua Boc, Dong Da District, Ha Noi City, Viet Nam</li>
+                            <li><span class="icon_phone"></span> (+84)967572628</li>
                         </ul>
                     </div>
                     <div class="col-lg-5">
@@ -77,15 +77,6 @@
                                 <ul>
                                     <li><a href="#">Login</a></li>
                                     <li><a href="#">Register</a></li>
-                                </ul>
-                            </div>
-                            <div class="header__top__language">
-                                <img src="img/lan.png" alt="">
-                                <span>English</span>
-                                <i class="fa fa-angle-down"></i>
-                                <ul>
-                                    <li>English</li>
-                                    <li>Bangla</li>
                                 </ul>
                             </div>
                         </div>
@@ -98,25 +89,25 @@
                 <div class="row">
                     <div class="col-lg-2">
                         <div class="header__logo">
-                            <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                            <a href="./index.php"><img src="img/logo.png" alt=""></a>
                         </div>
                     </div>
                     <div class="col-lg-10">
                         <div class="header__nav">
                             <nav class="header__menu">
                                 <ul class="menu__class">
-                                    <li><a href="./index.html">Home</a></li>
-                                    <li><a href="./rooms.html">Rooms</a></li>
-                                    <li><a href="./about.html">About Us</a></li>
+                                    <li><a href="./index.php">Home</a></li>
+                                    <li><a href="./rooms.php">Rooms</a></li>
+                                    <li><a href="./about.php">About Us</a></li>
                                     <li><a href="#">Pages</a>
                                         <ul class="dropdown">
-                                            <li><a href="./about.html">About Us</a></li>
-                                            <li><a href="./room-details.html">Room Details</a></li>
-                                            <li><a href="./blog-details.html">Blog Details</a></li>
+                                            <li><a href="./about.php">About Us</a></li>
+                                            <li><a href="./room-details.php">Room Details</a></li>
+                                            <li><a href="./blog-details.php">Blog Details</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="./blog.html">News</a></li>
-                                    <li class="active"><a href="./contact.html">Contact</a></li>
+                                    <li><a href="./blog.php">News</a></li>
+                                    <li class="active"><a href="./contact.php">Contact</a></li>
                                 </ul>
                             </nav>
                             <div class="header__nav__widget">
@@ -135,9 +126,10 @@
 
     <!-- Map Begin -->
     <div class="map">
-        <iframe
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.5883669609366!2d105.82623827612855!3d21.00913138845089!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac800f450807%3A0x419a49bcd94b693a!2sBanking%20Academy!5e0!3m2!1sen!2s!4v1713025329197!5m2!1sen!2s" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <!-- <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2942.5524090066037!2d-71.10245469994108!3d42.47980730490846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e3748250c43a43%3A0xe1b9879a5e9b6657!2sWinter%20Street%20Public%20Parking%20Lot!5e0!3m2!1sen!2sbd!4v1577299251173!5m2!1sen!2sbd"
-            height="600" style="border:0;" allowfullscreen=""></iframe>
+            height="600" style="border:0;" allowfullscreen=""></iframe> -->
     </div>
     <!-- Map End -->
 
@@ -150,13 +142,13 @@
                         <div class="contact__widget__item">
                             <h4>Contact Us</h4>
                             <ul>
-                                <li>(123) 456-78-910</li>
+                                <li>(+84)967572628</li>
                                 <li>Info.colorlib@gmail.com</li>
                             </ul>
                         </div>
                         <div class="contact__widget__item">
                             <h4>Address</h4>
-                            <p>96 Ernser Vista Suite 437, NY, <br />United Stated</p>
+                            <p>12 Chua Boc, Dong Da District, Ha Noi City <br />Viet Nam</p>
                         </div>
                         <div class="contact__widget__time">
                             <h4>Opentime</h4>
@@ -230,9 +222,9 @@
                             <div class="footer__logo">
                                 <a href="#"><img src="img/logo.png" alt=""></a>
                             </div>
-                            <h4>(123) 456-78-91096</h4>
+                            <h4>(+84)967572628</h4>
                             <ul>
-                                <li>Ernser Vista Suite 437, NY</li>
+                                <li>12 Chua Boc, Dong Da District, Ha Noi City, Viet Nam</li>
                                 <li>Info.colorlib@gmail.com</li>
                             </ul>
                             <div class="footer__social">
@@ -264,11 +256,6 @@
                     </div>
                     <div class="col-lg-5 col-md-8 col-sm-12">
                         <div class="footer__newslatter">
-                            <h4>Subscribe our newlatester</h4>
-                            <form action="#">
-                                <input type="text" placeholder="Your E-mail Address">
-                                <button type="submit">Subscribe</button>
-                            </form>
                             <div class="footer__newslatter__find">
                                 <h5>Find Us:</h5>
                                 <div class="footer__newslatter__find__links">
@@ -287,7 +274,7 @@
                     <div class="col-lg-7 col-md-7">
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         <div class="footer__copyright__text">
-                            <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+                            <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved </p>
                         </div>
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                     </div>

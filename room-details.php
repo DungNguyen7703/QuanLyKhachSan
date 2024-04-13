@@ -38,8 +38,8 @@
         </div>
         <div class="offcanvas__widget">
             <ul>
-                <li><span class="icon_pin_alt"></span> 96 Ernser Vista Suite 437, NY, US</li>
-                <li><span class="icon_phone"></span> (123) 456-78-910</li>
+                <li><span class="icon_pin_alt"></span>12 Chua Boc, Dong Da District, Ha Noi City, Viet Nam </li>
+                <li><span class="icon_phone"></span> (+84)967572628</li>
             </ul>
         </div>
         <div class="offcanvas__language">
@@ -79,15 +79,6 @@
                                     <li><a href="#">Register</a></li>
                                 </ul>
                             </div>
-                            <div class="header__top__language">
-                                <img src="img/lan.png" alt="">
-                                <span>English</span>
-                                <i class="fa fa-angle-down"></i>
-                                <ul>
-                                    <li>English</li>
-                                    <li>Bangla</li>
-                                </ul>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -105,18 +96,18 @@
                         <div class="header__nav">
                             <nav class="header__menu">
                                 <ul class="menu__class">
-                                    <li><a href="./index.html">Home</a></li>
-                                    <li><a href="./rooms.html">Rooms</a></li>
-                                    <li><a href="./about.html">About Us</a></li>
+                                    <li><a href="./index.php">Home</a></li>
+                                    <li><a href="./rooms.php">Rooms</a></li>
+                                    <li><a href="./about.php">About Us</a></li>
                                     <li class="active"><a href="#">Pages</a>
                                         <ul class="dropdown">
-                                            <li><a href="./about.html">About Us</a></li>
-                                            <li><a href="./room-details.html">Room Details</a></li>
-                                            <li><a href="./blog-details.html">Blog Details</a></li>
+                                            <li><a href="./about.php">About Us</a></li>
+                                            <li><a href="./room-details.php">Room Details</a></li>
+                                            <li><a href="./blog-details.php">Blog Details</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="./blog.html">News</a></li>
-                                    <li><a href="./contact.html">Contact</a></li>
+                                    <li><a href="./blog.php">News</a></li>
+                                    <li><a href="./contact.php">Contact</a></li>
                                 </ul>
                             </nav>
                             <div class="header__nav__widget">
@@ -315,9 +306,9 @@
                             <div class="footer__logo">
                                 <a href="#"><img src="img/logo.png" alt=""></a>
                             </div>
-                            <h4>(123) 456-78-91096</h4>
+                            <h4>(+84)967572628</h4>
                             <ul>
-                                <li>Ernser Vista Suite 437, NY</li>
+                                <li>12 Chua Boc, Dong Da District, Ha Noi City, Viet Nam</li>
                                 <li>Info.colorlib@gmail.com</li>
                             </ul>
                             <div class="footer__social">
@@ -349,11 +340,6 @@
                     </div>
                     <div class="col-lg-5 col-md-8 col-sm-12">
                         <div class="footer__newslatter">
-                            <h4>Subscribe our newlatester</h4>
-                            <form action="#">
-                                <input type="text" placeholder="Your E-mail Address">
-                                <button type="submit">Subscribe</button>
-                            </form>
                             <div class="footer__newslatter__find">
                                 <h5>Find Us:</h5>
                                 <div class="footer__newslatter__find__links">
@@ -372,7 +358,7 @@
                     <div class="col-lg-7 col-md-7">
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         <div class="footer__copyright__text">
-                            <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+                            <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved </p>
                         </div>
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                     </div>
