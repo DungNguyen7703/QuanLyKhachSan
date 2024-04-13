@@ -38,7 +38,7 @@
         </div>
         <div class="offcanvas__widget">
             <ul>
-                <li><span class="icon_pin_alt"></span> 96 Ernser Vista Suite 437, NY, US</li>
+                <li><span class="icon_pin_alt"></span> 12 Chua Boc, Dong Da District, Ha Noi City, Viet Nam</li>
                 <li><span class="icon_phone"></span> (+84)967572628</li>
             </ul>
         </div>
@@ -67,7 +67,7 @@
                 <div class="row">
                     <div class="col-lg-7">
                         <ul class="header__top__widget">
-                            <li><span class="icon_pin_alt"></span> 96 Ernser Vista Suite 437, NY, US</li>
+                            <li><span class="icon_pin_alt"></span> 12 Chua Boc, Dong Da District, Ha Noi City, Viet Nam</li>
                             <li><span class="icon_phone"></span> (+84)967572628</li>
                         </ul>
                     </div>
@@ -77,15 +77,6 @@
                                 <ul>
                                     <li><a href="#">Login</a></li>
                                     <li><a href="#">Register</a></li>
-                                </ul>
-                            </div>
-                            <div class="header__top__language">
-                                <img src="img/lan.png" alt="">
-                                <span>English</span>
-                                <i class="fa fa-angle-down"></i>
-                                <ul>
-                                    <li>English</li>
-                                    <li>Bangla</li>
                                 </ul>
                             </div>
                         </div>
@@ -392,7 +383,7 @@
                             </div>
                             <h4>(+84)96757262896</h4>
                             <ul>
-                                <li>Ernser Vista Suite 437, NY</li>
+                                <li>12 Chua Boc, Dong Da District, Ha Noi City, Viet Nam</li>
                                 <li>Info.colorlib@gmail.com</li>
                             </ul>
                             <div class="footer__social">

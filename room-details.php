@@ -67,8 +67,8 @@
                 <div class="row">
                     <div class="col-lg-7">
                         <ul class="header__top__widget">
-                            <li><span class="icon_pin_alt"></span> 96 Ernser Vista Suite 437, NY, US</li>
-                            <li><span class="icon_phone"></span> (123) 456-78-910</li>
+                            <li><span class="icon_pin_alt"></span> 12 Chua Boc, Dong Da District, Ha Noi City, Viet Nam</li>
+                            <li><span class="icon_phone"></span> (+84)967572628</li>
                         </ul>
                     </div>
                     <div class="col-lg-5">
