@@ -38,19 +38,11 @@
         </div>
         <div class="offcanvas__widget">
             <ul>
-                <li><span class="icon_pin_alt"></span> 96 Ernser Vista Suite 437, NY, US</li>
-                <li><span class="icon_phone"></span> (123) 456-78-910</li>
+                <li><span class="icon_pin_alt"></span> 12 Chua Boc, Dong Da District, Ha Noi City, Viet Nam</li>
+                <li><span class="icon_phone"></span> (+84)967572628</li>
             </ul>
         </div>
-        <div class="offcanvas__language">
-            <img src="img/lan.png" alt="">
-            <span>English</span>
-            <i class="fa fa-angle-down"></i>
-            <ul>
-                <li>English</li>
-                <li>Bangla</li>
-            </ul>
-        </div>
+        
         <div class="offcanvas__auth">
             <ul>
                 <li><a href="#">Login</a></li>
@@ -67,8 +59,8 @@
                 <div class="row">
                     <div class="col-lg-7">
                         <ul class="header__top__widget">
-                            <li><span class="icon_pin_alt"></span> 96 Ernser Vista Suite 437, NY, US</li>
-                            <li><span class="icon_phone"></span> (123) 456-78-910</li>
+                            <li><span class="icon_pin_alt"></span> 12 Chua Boc, Dong Da District, Ha Noi City, Viet Nam</li>
+                            <li><span class="icon_phone"></span> (+84)967572628</li>
                         </ul>
                     </div>
                     <div class="col-lg-5">
@@ -79,15 +71,7 @@
                                     <li><a href="#">Register</a></li>
                                 </ul>
                             </div>
-                            <div class="header__top__language">
-                                <img src="img/lan.png" alt="">
-                                <span>English</span>
-                                <i class="fa fa-angle-down"></i>
-                                <ul>
-                                    <li>English</li>
-                                    <li>Bangla</li>
-                                </ul>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -139,7 +123,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="hero__text">
-                        <h5>WELCOME HIROTO</h5>
+                        <h5>WELCOME GALAXYNG</h5>
                         <h2>Experience the greatest for you holidays.</h2>
                     </div>
                     <form action="#" class="filter__form">
@@ -193,7 +177,7 @@
                     <div class="home__about__text">
                         <div class="section-title">
                             <h5>ABOUT US</h5>
-                            <h2>Welcome Hiroto Hotel In Street L’Abreuvoir</h2>
+                            <h2>Welcome GALAXYNG Hotel In Street Chua Boc</h2>
                         </div>
                         <p class="first-para">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
                             fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
@@ -632,9 +616,9 @@
                             <div class="footer__logo">
                                 <a href="#"><img src="img/logo.png" alt=""></a>
                             </div>
-                            <h4>(123) 456-78-91096</h4>
+                            <h4>(+84)967572628</h4>
                             <ul>
-                                <li>Ernser Vista Suite 437, NY</li>
+                                <li>12 Chua Boc, Dong Da District, Ha Noi City, Viet Nam</li>
                                 <li>Info.colorlib@gmail.com</li>
                             </ul>
                             <div class="footer__social">
@@ -666,11 +650,6 @@
                     </div>
                     <div class="col-lg-5 col-md-8 col-sm-12">
                         <div class="footer__newslatter">
-                            <h4>Subscribe our newlatester</h4>
-                            <form action="#">
-                                <input type="text" placeholder="Your E-mail Address">
-                                <button type="submit">Subscribe</button>
-                            </form>
                             <div class="footer__newslatter__find">
                                 <h5>Find Us:</h5>
                                 <div class="footer__newslatter__find__links">
@@ -689,7 +668,7 @@
                     <div class="col-lg-7 col-md-7">
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                         <div class="footer__copyright__text">
-                            <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+                            <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved</p>
                         </div>
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                     </div>
