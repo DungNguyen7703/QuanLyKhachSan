@@ -97,13 +97,7 @@
                                     <li><a href='./index.php'>Home</a></li>
                                     <li><a href='./rooms.php'>Rooms</a></li>
                                     <li class='active'><a href='./about.php'>About Us</a></li>
-                                    <li><a href='#'>Pages</a>
-                                        <ul class='dropdown'>
-                                            <li><a href='./about.php'>About Us</a></li>
-                                            <li><a href='./room-details.php'>Room Details</a></li>
-                                            <li><a href='./blog-details.php'>Blog Details</a></li>
-                                        </ul>
-                                    </li>
+                                    <li><a href='./blog-details.php'>Blog Details</a></li>  
                                     <li><a href='./blog.php'>News</a></li>
                                     <li><a href='./contact.php'>Contact</a></li>
                                 </ul>
