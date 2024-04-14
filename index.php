@@ -45,8 +45,7 @@
         
         <div class='offcanvas__auth'>
             <ul>
-                <li><a href='#'>Login</a></li>
-                <li><a href='#'>Register</a></li>
+               <li><a href='./pages/login.html'>Login | Register</a></li>
             </ul>
         </div>
     </div>
@@ -67,8 +66,7 @@
                         <div class='header__top__right'>
                             <div class='header__top__auth'>
                                 <ul>
-                                    <li><a href='./pages/login.html'>Login</a></li>
-                                    <li><a href='./pages/register.php'>Register</a></li>
+                                 <li><a href='./pages/login.html'>Login | Register</a></li>
                                 </ul>
                             </div>
                             
