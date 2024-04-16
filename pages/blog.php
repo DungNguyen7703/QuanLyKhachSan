@@ -10,14 +10,14 @@
     <title>Hiroto | Template</title>
 
     <!-- Css Styles -->
-    <link rel='stylesheet' href='css/bootstrap.min.css' type='text/css'>
-    <link rel='stylesheet' href='css/font-awesome.min.css' type='text/css'>
-    <link rel='stylesheet' href='css/elegant-icons.css' type='text/css'>
-    <link rel='stylesheet' href='css/nice-select.css' type='text/css'>
-    <link rel='stylesheet' href='css/jquery-ui.min.css' type='text/css'>
-    <link rel='stylesheet' href='css/owl.carousel.min.css' type='text/css'>
-    <link rel='stylesheet' href='css/slicknav.min.css' type='text/css'>
-    <link rel='stylesheet' href='css/style.css' type='text/css'>
+    <link rel='stylesheet' href='../css/bootstrap.min.css' type='text/css'>
+    <link rel='stylesheet' href='../css/font-awesome.min.css' type='text/css'>
+    <link rel='stylesheet' href='../css/elegant-icons.css' type='text/css'>
+    <link rel='stylesheet' href='../css/nice-select.css' type='text/css'>
+    <link rel='stylesheet' href='../css/jquery-ui.min.css' type='text/css'>
+    <link rel='stylesheet' href='../css/owl.carousel.min.css' type='text/css'>
+    <link rel='stylesheet' href='../css/slicknav.min.css' type='text/css'>
+    <link rel='stylesheet' href='../css/style.css' type='text/css'>
 </head>
 
 <body>
@@ -30,7 +30,7 @@
     <div class='offcanvas-menu-overlay'></div>
     <div class='offcanvas-menu-wrapper'>
         <div class='offcanvas__logo'>
-            <a href='./index.php'><img src='img/logo.png' alt=''></a>
+            <a href='./index.php'><img src='../img/logo.png' alt=''></a>
         </div>
         <div id='mobile-menu-wrap'></div>
         <div class='offcanvas__btn__widget'>
@@ -43,7 +43,7 @@
             </ul>
         </div>
         <div class='offcanvas__language'>
-            <img src='img/lan.png' alt=''>
+            <img src='../img/lan.png' alt=''>
             <span>English</span>
             <i class='fa fa-angle-down'></i>
             <ul>
@@ -75,8 +75,7 @@
                         <div class='header__top__right'>
                             <div class='header__top__auth'>
                                 <ul>
-                                    <li><a href='./pages/login.php'>Login</a></li>
-                                    <li><a href='./pages/register.php'>Register</a></li>
+                                    <li><a href='./login.php'>Login/Register</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -89,14 +88,14 @@
                 <div class='row'>
                     <div class='col-lg-2'>
                         <div class='header__logo'>
-                            <a href='./index.php'><img src='img/logo.png' alt=''></a>
+                            <a href='./index.php'><img src='../img/logo.png' alt=''></a>
                         </div>
                     </div>
                     <div class='col-lg-10'>
                         <div class='header__nav'>
                             <nav class='header__menu'>
                                 <ul class='menu__class'>
-                                    <li><a href='./index.php'>Home</a></li>
+                                    <li><a href='../index.php'>Home</a></li>
                                     <li><a href='./rooms.php'>Rooms</a></li>
                                     <li><a href='./about.php'>About Us</a></li>
                                     <li><a href='#'>Pages</a>
@@ -125,14 +124,14 @@
     <!-- Header Section End -->
 
     <!-- Breadcrumb Begin -->
-    <div class='breadcrumb-option set-bg' data-setbg='img/breadcrumb-bg.jpg'>
+    <div class='breadcrumb-option set-bg' data-setbg='../img/breadcrumb-bg.jpg'>
         <div class='container'>
             <div class='row'>
                 <div class='col-lg-12 text-center'>
                     <div class='breadcrumb__text'>
                         <h1>Our Blog</h1>
                         <div class='breadcrumb__links'>
-                            <a href='./index.php'>Home</a>
+                            <a href='../index.php'>Home</a>
                             <span>Blog</span>
                         </div>
                     </div>
@@ -149,7 +148,7 @@
                 <div class='col-lg-8 col-md-8'>
                     <div class='blog__item__large'>
                         <div class='blog__item__large__pic'>
-                            <img src='img/blog/blog-large.jpg' alt=''>
+                            <img src='../img/blog/blog-large.jpg' alt=''>
                             <div class='tag'>Hotel</div>
                         </div>
                         <div class='blog__item__large__text'>
@@ -161,7 +160,7 @@
                         <div class='col-lg-6 col-md-6'>
                             <div class='blog__item'>
                                 <div class='blog__item__pic'>
-                                    <img src='img/blog/blog-1.jpg' alt=''>
+                                    <img src='../img/blog/blog-1.jpg' alt=''>
                                     <div class='tag'>Event</div>
                                 </div>
                                 <div class='blog__item__text'>
@@ -173,7 +172,7 @@
                         <div class='col-lg-6 col-md-6'>
                             <div class='blog__item'>
                                 <div class='blog__item__pic'>
-                                    <img src='img/blog/blog-2.jpg' alt=''>
+                                    <img src='../img/blog/blog-2.jpg' alt=''>
                                     <div class='tag'>Travel</div>
                                 </div>
                                 <div class='blog__item__text'>
@@ -185,7 +184,7 @@
                         <div class='col-lg-6 col-md-6'>
                             <div class='blog__item'>
                                 <div class='blog__item__pic'>
-                                    <img src='img/blog/blog-3.jpg' alt=''>
+                                    <img src='../img/blog/blog-3.jpg' alt=''>
                                     <div class='tag'>Restaurant</div>
                                 </div>
                                 <div class='blog__item__text'>
@@ -197,7 +196,7 @@
                         <div class='col-lg-6 col-md-6'>
                             <div class='blog__item'>
                                 <div class='blog__item__pic'>
-                                    <img src='img/blog/blog-4.jpg' alt=''>
+                                    <img src='../img/blog/blog-4.jpg' alt=''>
                                     <div class='tag'>Hotel</div>
                                 </div>
                                 <div class='blog__item__text'>
@@ -209,7 +208,7 @@
                         <div class='col-lg-6 col-md-6'>
                             <div class='blog__item'>
                                 <div class='blog__item__pic'>
-                                    <img src='img/blog/blog-5.jpg' alt=''>
+                                    <img src='../img/blog/blog-5.jpg' alt=''>
                                     <div class='tag'>Travel</div>
                                 </div>
                                 <div class='blog__item__text'>
@@ -221,7 +220,7 @@
                         <div class='col-lg-6 col-md-6'>
                             <div class='blog__item'>
                                 <div class='blog__item__pic'>
-                                    <img src='img/blog/blog-4.jpg' alt=''>
+                                    <img src='../img/blog/blog-4.jpg' alt=''>
                                     <div class='tag'>Restaurant</div>
                                 </div>
                                 <div class='blog__item__text'>
@@ -252,7 +251,7 @@
                             <h4>Recent Posts</h4>
                             <a href='#' class='blog__sidebar__recent__item'>
                                 <div class='blog__sidebar__recent__item__pic'>
-                                    <img src='img/blog/sidebar/recent-1.jpg' alt=''>
+                                    <img src='../img/blog/sidebar/recent-1.jpg' alt=''>
                                 </div>
                                 <div class='blog__sidebar__recent__item__text'>
                                     <h6>Smart HVAC Solutions Keep It</h6>
@@ -261,7 +260,7 @@
                             </a>
                             <a href='#' class='blog__sidebar__recent__item'>
                                 <div class='blog__sidebar__recent__item__pic'>
-                                    <img src='img/blog/sidebar/recent-2.jpg' alt=''>
+                                    <img src='../img/blog/sidebar/recent-2.jpg' alt=''>
                                 </div>
                                 <div class='blog__sidebar__recent__item__text'>
                                     <h6>Guests think these services</h6>
@@ -270,7 +269,7 @@
                             </a>
                             <a href='#' class='blog__sidebar__recent__item'>
                                 <div class='blog__sidebar__recent__item__pic'>
-                                    <img src='img/blog/sidebar/recent-3.jpg' alt=''>
+                                    <img src='../img/blog/sidebar/recent-3.jpg' alt=''>
                                 </div>
                                 <div class='blog__sidebar__recent__item__text'>
                                     <h6>Europe's 2018 hotel strengths</h6>
@@ -318,25 +317,25 @@
     <!-- Blog Section End -->
 
     <!-- Footer Section Begin -->
-    <footer class='footer set-bg' data-setbg='img/footer-bg.jpg'>
+    <footer class='footer set-bg' data-setbg='../img/footer-bg.jpg'>
         <div class='container'>
             <div class='row'>
                 <div class='col-lg-12'>
                     <div class='logo__carousel owl-carousel'>
                         <div class='logo__carousel__item'>
-                            <a href='#'><img src='img/logo/logo-1.png' alt=''></a>
+                            <a href='#'><img src='../img/logo/logo-1.png' alt=''></a>
                         </div>
                         <div class='logo__carousel__item'>
-                            <a href='#'><img src='img/logo/logo-2.png' alt=''></a>
+                            <a href='#'><img src='../img/logo/logo-2.png' alt=''></a>
                         </div>
                         <div class='logo__carousel__item'>
-                            <a href='#'><img src='img/logo/logo-3.png' alt=''></a>
+                            <a href='#'><img src='../img/logo/logo-3.png' alt=''></a>
                         </div>
                         <div class='logo__carousel__item'>
-                            <a href='#'><img src='img/logo/logo-4.png' alt=''></a>
+                            <a href='#'><img src='../img/logo/logo-4.png' alt=''></a>
                         </div>
                         <div class='logo__carousel__item'>
-                            <a href='#'><img src='img/logo/logo-5.png' alt=''></a>
+                            <a href='#'><img src='../img/logo/logo-5.png' alt=''></a>
                         </div>
                     </div>
                 </div>
@@ -348,7 +347,7 @@
                     <div class='col-lg-3 col-md-6 col-sm-6'>
                         <div class='footer__about'>
                             <div class='footer__logo'>
-                                <a href='#'><img src='img/logo.png' alt=''></a>
+                                <a href='#'><img src='../img/logo.png' alt=''></a>
                             </div>
                             <h4>(+84)96757262896</h4>
                             <ul>
@@ -424,13 +423,13 @@
     <!-- Footer Section End -->
 
     <!-- Js Plugins -->
-    <script src='js/jquery-3.3.1.min.js'></script>
-    <script src='js/bootstrap.min.js'></script>
-    <script src='js/jquery.nice-select.min.js'></script>
-    <script src='js/jquery-ui.min.js'></script>
-    <script src='js/jquery.slicknav.js'></script>
-    <script src='js/owl.carousel.min.js'></script>
-    <script src='js/main.js'></script>
+    <script src='../js/jquery-3.3.1.min.js'></script>
+    <script src='../js/bootstrap.min.js'></script>
+    <script src='../js/jquery.nice-select.min.js'></script>
+    <script src='../js/jquery-ui.min.js'></script>
+    <script src='../js/jquery.slicknav.js'></script>
+    <script src='../js/owl.carousel.min.js'></script>
+    <script src='../js/main.js'></script>
 </body>
 
 </html>

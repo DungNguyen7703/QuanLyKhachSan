@@ -10,14 +10,14 @@
     <title>Hiroto | Template</title>
 
     <!-- Css Styles -->
-    <link rel='stylesheet' href='css/bootstrap.min.css' type='text/css'>
-    <link rel='stylesheet' href='css/font-awesome.min.css' type='text/css'>
-    <link rel='stylesheet' href='css/elegant-icons.css' type='text/css'>
-    <link rel='stylesheet' href='css/nice-select.css' type='text/css'>
-    <link rel='stylesheet' href='css/jquery-ui.min.css' type='text/css'>
-    <link rel='stylesheet' href='css/owl.carousel.min.css' type='text/css'>
-    <link rel='stylesheet' href='css/slicknav.min.css' type='text/css'>
-    <link rel='stylesheet' href='css/style.css' type='text/css'>
+    <link rel='stylesheet' href='../css/bootstrap.min.css' type='text/css'>
+    <link rel='stylesheet' href='../css/font-awesome.min.css' type='text/css'>
+    <link rel='stylesheet' href='../css/elegant-icons.css' type='text/css'>
+    <link rel='stylesheet' href='../css/nice-select.css' type='text/css'>
+    <link rel='stylesheet' href='../css/jquery-ui.min.css' type='text/css'>
+    <link rel='stylesheet' href='../css/owl.carousel.min.css' type='text/css'>
+    <link rel='stylesheet' href='../css/slicknav.min.css' type='text/css'>
+    <link rel='stylesheet' href='../css/style.css' type='text/css'>
 </head>
 
 <body>
@@ -30,7 +30,7 @@
     <div class='offcanvas-menu-overlay'></div>
     <div class='offcanvas-menu-wrapper'>
         <div class='offcanvas__logo'>
-            <a href='./index.php'><img src='img/logo.png' alt=''></a>
+            <a href='./index.php'><img src='../img/logo.png' alt=''></a>
         </div>
         <div id='mobile-menu-wrap'></div>
         <div class='offcanvas__btn__widget'>
@@ -43,7 +43,7 @@
             </ul>
         </div>
         <div class='offcanvas__language'>
-            <img src='img/lan.png' alt=''>
+            <img src='../img/lan.png' alt=''>
             <span>English</span>
             <i class='fa fa-angle-down'></i>
             <ul>
@@ -75,8 +75,7 @@
                         <div class='header__top__right'>
                             <div class='header__top__auth'>
                                 <ul>
-                                    <li><a href='#'>Login</a></li>
-                                    <li><a href='#'>Register</a></li>
+                                    <li><a href='./login.html'>Login/Register</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -89,14 +88,14 @@
                 <div class='row'>
                     <div class='col-lg-2'>
                         <div class='header__logo'>
-                            <a href='./index.php'><img src='img/logo.png' alt=''></a>
+                            <a href='../index.php'><img src='../img/logo.png' alt=''></a>
                         </div>
                     </div>
                     <div class='col-lg-10'>
                         <div class='header__nav'>
                             <nav class='header__menu'>
                                 <ul class='menu__class'>
-                                    <li><a href='./index.php'>Home</a></li>
+                                    <li><a href='../index.php'>Home</a></li>
                                     <li><a href='./rooms.php'>Rooms</a></li>
                                     <li><a href='./about.php'>About Us</a></li>
                                     <li><a href='#'>Pages</a>
@@ -190,25 +189,25 @@
     <!-- Contact Section End -->
 
     <!-- Footer Section Begin -->
-    <footer class='footer set-bg' data-setbg='img/footer-bg.jpg'>
+    <footer class='footer set-bg' data-setbg='../img/footer-bg.jpg'>
         <div class='container'>
             <div class='row'>
                 <div class='col-lg-12'>
                     <div class='logo__carousel owl-carousel'>
                         <div class='logo__carousel__item'>
-                            <a href='#'><img src='img/logo/logo-1.png' alt=''></a>
+                            <a href='#'><img src='../img/logo/logo-1.png' alt=''></a>
                         </div>
                         <div class='logo__carousel__item'>
-                            <a href='#'><img src='img/logo/logo-2.png' alt=''></a>
+                            <a href='#'><img src='../img/logo/logo-2.png' alt=''></a>
                         </div>
                         <div class='logo__carousel__item'>
-                            <a href='#'><img src='img/logo/logo-3.png' alt=''></a>
+                            <a href='#'><img src='../img/logo/logo-3.png' alt=''></a>
                         </div>
                         <div class='logo__carousel__item'>
-                            <a href='#'><img src='img/logo/logo-4.png' alt=''></a>
+                            <a href='#'><img src='../img/logo/logo-4.png' alt=''></a>
                         </div>
                         <div class='logo__carousel__item'>
-                            <a href='#'><img src='img/logo/logo-5.png' alt=''></a>
+                            <a href='#'><img src='../img/logo/logo-5.png' alt=''></a>
                         </div>
                     </div>
                 </div>
@@ -220,7 +219,7 @@
                     <div class='col-lg-3 col-md-6 col-sm-6'>
                         <div class='footer__about'>
                             <div class='footer__logo'>
-                                <a href='#'><img src='img/logo.png' alt=''></a>
+                                <a href='#'><img src='../img/logo.png' alt=''></a>
                             </div>
                             <h4>(+84)967572628</h4>
                             <ul>
@@ -291,13 +290,13 @@
     <!-- Footer Section End -->
 
     <!-- Js Plugins -->
-    <script src='js/jquery-3.3.1.min.js'></script>
-    <script src='js/bootstrap.min.js'></script>
-    <script src='js/jquery.nice-select.min.js'></script>
-    <script src='js/jquery-ui.min.js'></script>
-    <script src='js/jquery.slicknav.js'></script>
-    <script src='js/owl.carousel.min.js'></script>
-    <script src='js/main.js'></script>
+    <script src='../js/jquery-3.3.1.min.js'></script>
+    <script src='../js/bootstrap.min.js'></script>
+    <script src='../js/jquery.nice-select.min.js'></script>
+    <script src='../js/jquery-ui.min.js'></script>
+    <script src='../js/jquery.slicknav.js'></script>
+    <script src='../js/owl.carousel.min.js'></script>
+    <script src='../js/main.js'></script>
 </body>
 
 </html>

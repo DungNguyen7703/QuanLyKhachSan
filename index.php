@@ -7,7 +7,7 @@
     <meta name='keywords' content='Hiroto, unica, creative, html'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <meta http-equiv='X-UA-Compatible' content='ie=edge'>
-    <title>Hiroto | Template</title>
+    <title>Galaxyng Hotel</title>
 
     <!-- Css Styles -->
     <link rel='stylesheet' href='css/bootstrap.min.css' type='text/css'>
@@ -45,8 +45,7 @@
         
         <div class='offcanvas__auth'>
             <ul>
-                <li><a href='#'>Login</a></li>
-                <li><a href='#'>Register</a></li>
+                <li><a href='../pages/login.html'>Login/Register</a></li>
             </ul>
         </div>
     </div>
@@ -67,8 +66,7 @@
                         <div class='header__top__right'>
                             <div class='header__top__auth'>
                                 <ul>
-                                    <li><a href='./pages/login.html'>Login</a></li>
-                                    <li><a href='./pages/register.php'>Register</a></li>
+                                    <li><a href='./pages/login.html'>Login/Register</a></li>
                                 </ul>
                             </div>
                             
@@ -90,17 +88,17 @@
                             <nav class='header__menu'>
                                 <ul class='menu__class'>
                                     <li class='active'><a href='./index.php'>Home</a></li>
-                                    <li><a href='./rooms.php'>Rooms</a></li>
-                                    <li><a href='./about.php'>About Us</a></li>
+                                    <li><a href='./pages/rooms.php'>Rooms</a></li>
+                                    <li><a href='./pages/about.php'>About Us</a></li>
                                     <li><a href='#'>Pages</a>
                                         <ul class='dropdown'>
                                             <li><a href='./page/about.php'>About Us</a></li>
-                                            <li><a href='./room-details.php'>Room Details</a></li>
-                                            <li><a href='./blog-details.php'>Blog Details</a></li>
+                                            <li><a href='./pages/room-details.php'>Room Details</a></li>
+                                            <li><a href='./pages/blog-details.php'>Blog Details</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href='./blog.php'>News</a></li>
-                                    <li><a href='./contact.php'>Contact</a></li>
+                                    <li><a href='./pages/blog.php'>News</a></li>
+                                    <li><a href='./pages/contact.php'>Contact</a></li>
                                 </ul>
                             </nav>
                             <div class='header__nav__widget'>
