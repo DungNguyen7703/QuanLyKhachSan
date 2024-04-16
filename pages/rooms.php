@@ -68,11 +68,7 @@
         </div>
         <div class='offcanvas__auth'>
             <ul>
-<<<<<<< HEAD:pages/rooms.php
                 <li><a href='login.html'>Login/Register</a></li>
-=======
-              <li><a href='./pages/login.html'>Login | Register</a></li>
->>>>>>> 43537560d7df06a558641f5bf2770725047a92a3:rooms.php
             </ul>
         </div>
     </div>
@@ -93,11 +89,7 @@
                         <div class='header__top__right'>
                             <div class='header__top__auth'>
                                 <ul>
-<<<<<<< HEAD:pages/rooms.php
                                     <li><a href='login.html'>Login/Register</a></li>
-=======
-                                 <li><a href='./pages/login.html'>Login | Register</a></li>
->>>>>>> 43537560d7df06a558641f5bf2770725047a92a3:rooms.php
                                 </ul>
                             </div>
                         </div>
@@ -153,7 +145,7 @@
                     <div class='breadcrumb__text'>
                         <h1>Our Room</h1>
                         <div class='breadcrumb__links'>
-                            <a href='./index.php'>Home</a>
+                            <a href='../index.php'>Home</a>
                             <span>Rooms</span>
                         </div>
                     </div>

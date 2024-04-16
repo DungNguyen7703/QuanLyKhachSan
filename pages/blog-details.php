@@ -25,7 +25,6 @@
     <div id='preloder'>
         <div class='loader'></div>
     </div>
-
     <!-- Offcanvas Menu Begin -->
     <div class='offcanvas-menu-overlay'></div>
     <div class='offcanvas-menu-wrapper'>
@@ -53,11 +52,7 @@
         </div>
         <div class='offcanvas__auth'>
             <ul>
-<<<<<<< HEAD:pages/blog-details.php
                 <li><a href='login.html'>Login/Register</a></li>
-=======
-                <li><a href='./pages/login.html'>Login | Register</a></li>
->>>>>>> 43537560d7df06a558641f5bf2770725047a92a3:blog-details.php
             </ul>
         </div>
     </div>
@@ -78,11 +73,7 @@
                         <div class='header__top__right'>
                             <div class='header__top__auth'>
                                 <ul>
-<<<<<<< HEAD:pages/blog-details.php
                                     <li><a href='login.html'>Login/Register</a></li>
-=======
-                                  <li><a href='./pages/login.html'>Login | Register</a></li>
->>>>>>> 43537560d7df06a558641f5bf2770725047a92a3:blog-details.php
                                 </ul>
                             </div>
                         </div>

@@ -74,11 +74,7 @@
                         <div class='header__top__right'>
                             <div class='header__top__auth'>
                                 <ul>
-<<<<<<< HEAD:pages/about.php
                                     <li><a href='login.html'>Login/Register</a></li>
-=======
-                                    <li><a href='./pages/login.html'>Login | Register</a></li>
->>>>>>> 43537560d7df06a558641f5bf2770725047a92a3:about.php
                                 </ul>
                             </div>
                         </div>
@@ -98,7 +94,6 @@
                         <div class='header__nav'>
                             <nav class='header__menu'>
                                 <ul class='menu__class'>
-<<<<<<< HEAD:pages/about.php
                                     <li><a href='../index.php'>Home</a></li>
                                     <li><a href='rooms.php'>Rooms</a></li>
                                     <li class='active'><a href='about.php'>About Us</a></li>
@@ -111,14 +106,6 @@
                                     </li>
                                     <li><a href='blog.php'>News</a></li>
                                     <li><a href='contact.php'>Contact</a></li>
-=======
-                                    <li><a href='./index.php'>Home</a></li>
-                                    <li><a href='./rooms.php'>Rooms</a></li>
-                                    <li class='active'><a href='./about.php'>About Us</a></li>
-                                    <li><a href='./blog-details.php'>Blog Details</a></li>  
-                                    <li><a href='./blog.php'>News</a></li>
-                                    <li><a href='./contact.php'>Contact</a></li>
->>>>>>> 43537560d7df06a558641f5bf2770725047a92a3:about.php
                                 </ul>
                             </nav>
                             <div class='header__nav__widget'>
@@ -143,7 +130,7 @@
                     <div class='breadcrumb__text'>
                         <h1>About Us</h1>
                         <div class='breadcrumb__links'>
-                            <a href='./index.php'>Home</a>
+                            <a href='../index.php'>Home</a>
                             <span>About Us</span>
                         </div>
                     </div>

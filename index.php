@@ -70,11 +70,7 @@
                         <div class='header__top__right'>
                             <div class='header__top__auth'>
                                 <ul>
-<<<<<<< HEAD
                                     <li><a href='./pages/login.html'>Login/Register</a></li>
-=======
-                                 <li><a href='./pages/login.html'>Login | Register</a></li>
->>>>>>> 43537560d7df06a558641f5bf2770725047a92a3
                                 </ul>
                             </div>
                             
@@ -96,7 +92,6 @@
                             <nav class='header__menu'>
                                 <ul class='menu__class'>
                                     <li class='active'><a href='./index.php'>Home</a></li>
-<<<<<<< HEAD
                                     <li><a href='./pages/rooms.php'>Rooms</a></li>
                                     <li><a href='./pages/about.php'>About Us</a></li>
                                     <li><a href='#'>Pages</a>
@@ -108,13 +103,6 @@
                                     </li>
                                     <li><a href='./pages/blog.php'>News</a></li>
                                     <li><a href='./pages/contact.php'>Contact</a></li>
-=======
-                                    <li><a href='./rooms.php'>Rooms</a></li>
-                                    <li><a href='./about.php'>About Us</a></li>
-                                    <li><a href='./blog-details.php'>Blog Details</a></li>  
-                                    <li><a href='./blog.php'>News</a></li>
-                                    <li><a href='./contact.php'>Contact</a></li>
->>>>>>> 43537560d7df06a558641f5bf2770725047a92a3
                                 </ul>
                             </nav>
                             <div class='header__nav__widget'>

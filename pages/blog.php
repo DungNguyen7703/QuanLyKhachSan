@@ -74,11 +74,7 @@
                         <div class='header__top__right'>
                             <div class='header__top__auth'>
                                 <ul>
-<<<<<<< HEAD:pages/blog.php
                                     <li><a href='./login.php'>Login/Register</a></li>
-=======
-                                    <li><a href='./pages/login.html'>Login | Register</a></li>
->>>>>>> 43537560d7df06a558641f5bf2770725047a92a3:blog.php
                                 </ul>
                             </div>
                         </div>
