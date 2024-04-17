@@ -130,7 +130,7 @@
                     <div class='breadcrumb__text'>
                         <h1>About Us</h1>
                         <div class='breadcrumb__links'>
-                            <a href='../index.php'>Home</a>
+                            <a href='.. /index.php'>Home</a>
                             <span>About Us</span>
                         </div>
                     </div>
