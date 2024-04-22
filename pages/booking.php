@@ -207,25 +207,25 @@
     </section>
 
     <!-- Footer Section Begin -->
-    <footer class='footer set-bg' data-setbg='img/footer-bg.jpg'>
+    <footer class='footer set-bg' data-setbg='../img/footer-bg.jpg'>
         <div class='container'>
             <div class='row'>
                 <div class='col-lg-12'>
                     <div class='logo__carousel owl-carousel'>
                         <div class='logo__carousel__item'>
-                            <a href='#'><img src='img/logo/logo-1.png' alt=''></a>
+                            <a href='#'><img src='../img/logo/logo-1.png' alt=''></a>
                         </div>
                         <div class='logo__carousel__item'>
-                            <a href='#'><img src='img/logo/logo-2.png' alt=''></a>
+                            <a href='#'><img src='../img/logo/logo-2.png' alt=''></a>
                         </div>
                         <div class='logo__carousel__item'>
-                            <a href='#'><img src='img/logo/logo-3.png' alt=''></a>
+                            <a href='#'><img src='../img/logo/logo-3.png' alt=''></a>
                         </div>
                         <div class='logo__carousel__item'>
-                            <a href='#'><img src='img/logo/logo-4.png' alt=''></a>
+                            <a href='#'><img src='../img/logo/logo-4.png' alt=''></a>
                         </div>
                         <div class='logo__carousel__item'>
-                            <a href='#'><img src='img/logo/logo-5.png' alt=''></a>
+                            <a href='#'><img src='../img/logo/logo-5.png' alt=''></a>
                         </div>
                     </div>
                 </div>
@@ -237,7 +237,7 @@
                     <div class='col-lg-3 col-md-6 col-sm-6'>
                         <div class='footer__about'>
                             <div class='footer__logo'>
-                                <a href='#'><img src='img/logo.png' alt=''></a>
+                                <a href='#'><img src='../img/logo.png' alt=''></a>
                             </div>
                             <h4>(+84)967572628</h4>
                             <ul>
