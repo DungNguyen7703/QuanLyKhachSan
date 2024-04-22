@@ -79,8 +79,8 @@
             <div class='container'>
                 <div class='row'>
                     <div class='col-lg-2'>
-                        <div class='header__logo'>
-                            <a href='../index.php'><img src='../img/logo2.png' alt=''></a>
+                        <div class='header__logo'  style="line-height: 48.8px; max-width: 170px">
+                            <a href='../index.php'><img src='../img/logo2.png'></a>
                         </div>
                     </div>
                     <div class='col-lg-10'>
@@ -213,19 +213,19 @@
                 <div class='col-lg-12'>
                     <div class='logo__carousel owl-carousel'>
                         <div class='logo__carousel__item'>
-                            <a href='#'><img src='../img/logo/logo-1.png' alt=''></a>
+                            <a href='#'><img src='img/logo/logo-1.png' alt=''></a>
                         </div>
                         <div class='logo__carousel__item'>
-                            <a href='#'><img src='../img/logo/logo-2.png' alt=''></a>
+                            <a href='#'><img src='img/logo/logo-2.png' alt=''></a>
                         </div>
                         <div class='logo__carousel__item'>
-                            <a href='#'><img src='../img/logo/logo-3.png' alt=''></a>
+                            <a href='#'><img src='img/logo/logo-3.png' alt=''></a>
                         </div>
                         <div class='logo__carousel__item'>
-                            <a href='#'><img src='../img/logo/logo-4.png' alt=''></a>
+                            <a href='#'><img src='img/logo/logo-4.png' alt=''></a>
                         </div>
                         <div class='logo__carousel__item'>
-                            <a href='#'><img src='../img/logo/logo-5.png' alt=''></a>
+                            <a href='#'><img src='img/logo/logo-5.png' alt=''></a>
                         </div>
                     </div>
                 </div>
@@ -237,7 +237,7 @@
                     <div class='col-lg-3 col-md-6 col-sm-6'>
                         <div class='footer__about'>
                             <div class='footer__logo'>
-                                <a href='#'><img src='../img/logo.png' alt=''></a>
+                                <a href='#'><img src='../img/logo2.png' alt='' style="max-width: 180px"></a>
                             </div>
                             <h4>(+84)967572628</h4>
                             <ul>
