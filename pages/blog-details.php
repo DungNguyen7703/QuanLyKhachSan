@@ -30,7 +30,7 @@
     <div class="offcanvas-menu-overlay"></div>
     <div class="offcanvas-menu-wrapper">
         <div class="offcanvas__logo">
-            <a href="../index.php"><img src="../img/logo.png" alt=""></a>
+            <a href="../index.php"><img src="../img/logo2.png" alt=""></a>
         </div>
         <div id="mobile-menu-wrap"></div>
         <div class="offcanvas__btn__widget">
@@ -86,8 +86,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-2">
-                        <div class="header__logo">
-                            <a href="../index.php"><img src="../img/logo.png" alt=""></a>
+                        <div class="header__logo" style="line-height: 48.8px; max-width: 180px">
+                            <a href="../index.php"><img src="../img/logo2.png" alt=""></a>
                         </div>
                     </div>
                     <div class="col-lg-10">
@@ -377,7 +377,7 @@
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="footer__about">
                             <div class="footer__logo">
-                                <a href="#"><img src="../img/logo.png" alt=""></a>
+                                <a href="#"><img src="../img/logo2.png" alt='' style="max-width: 70%;"></a>
                             </div>
                             <h4>(123) 456-78-91096</h4>
                             <ul>
