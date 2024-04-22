@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 22, 2024 at 04:17 PM
+-- Generation Time: Apr 22, 2024 at 05:02 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.0.30
 
@@ -39,16 +39,16 @@ CREATE TABLE `accounts` (
 --
 
 INSERT INTO `accounts` (`account_id`, `username`, `password`, `account_type`) VALUES
-('01', 'admin1', 'password_admin1', 1),
-('02', 'admin2', 'password_admin2', 1),
-('03', 'user1', 'password_user1', 0),
-('04', 'user2', 'password_user2', 0),
-('05', 'user3', 'password_user3', 0),
-('06', 'user4', 'password_user4', 0),
-('07', 'user5', 'password_user5', 0),
-('08', 'user6', 'password_user6', 0),
-('09', 'user7', 'password_user7', 0),
-('10', 'user8', 'password_user8', 0);
+('ACC01', 'admin1', 'password_admin1', 1),
+('ACC02', 'admin2', 'password_admin2', 1),
+('ACC03', 'user1', 'password_user1', 0),
+('ACC04', 'user2', 'password_user2', 0),
+('ACC05', 'user3', 'password_user3', 0),
+('ACC06', 'user4', 'password_user4', 0),
+('ACC07', 'user5', 'password_user5', 0),
+('ACC08', 'user6', 'password_user6', 0),
+('ACC09', 'user7', 'password_user7', 0),
+('ACC10', 'user8', 'password_user8', 0);
 
 -- --------------------------------------------------------
 
@@ -67,14 +67,14 @@ CREATE TABLE `bookings` (
 --
 
 INSERT INTO `bookings` (`booking_id`, `customer_id`, `date`) VALUES
-('01', '01', '2024-04-01'),
-('02', '02', '2024-04-02'),
-('03', '03', '2024-04-03'),
-('04', '04', '2024-04-04'),
-('05', '05', '2024-04-05'),
-('06', '06', '2024-04-06'),
-('07', '07', '2024-04-07'),
-('08', '08', '2024-04-08');
+('BK01', 'KH01', '2024-04-01'),
+('BK02', 'KH02', '2024-04-02'),
+('BK03', 'KH03', '2024-04-03'),
+('BK04', 'KH04', '2024-04-04'),
+('BK05', 'KH05', '2024-04-05'),
+('BK06', 'KH06', '2024-04-06'),
+('BK07', 'KH07', '2024-04-07'),
+('BK08', 'KH08', '2024-04-08');
 
 -- --------------------------------------------------------
 
@@ -95,14 +95,14 @@ CREATE TABLE `booking_details` (
 --
 
 INSERT INTO `booking_details` (`detail_id`, `booking_id`, `room_id`, `check_in`, `check_out`) VALUES
-('01', '01', 'P101', '2024-04-02', '2024-04-05'),
-('02', '01', 'P102', '2024-04-02', '2024-04-05'),
-('03', '02', 'P203', '2024-04-03', '2024-04-06'),
-('04', '03', 'P304', '2024-04-04', '2024-04-07'),
-('05', '03', 'P305', '2024-04-04', '2024-04-07'),
-('06', '04', 'P506', '2024-04-05', '2024-04-08'),
-('07', '05', 'P401', '2024-04-06', '2024-04-09'),
-('08', '06', 'P206', '2024-04-07', '2024-04-10');
+('01', 'BK01', 'P101', '2024-04-02', '2024-04-05'),
+('02', 'BK01', 'P102', '2024-04-02', '2024-04-05'),
+('03', 'BK02', 'P203', '2024-04-03', '2024-04-06'),
+('04', 'BK03', 'P304', '2024-04-04', '2024-04-07'),
+('05', 'BK03', 'P305', '2024-04-04', '2024-04-07'),
+('06', 'BK04', 'P506', '2024-04-05', '2024-04-08'),
+('07', 'BK05', 'P401', '2024-04-06', '2024-04-09'),
+('08', 'BK06', 'P206', '2024-04-07', '2024-04-10');
 
 -- --------------------------------------------------------
 
@@ -126,14 +126,14 @@ CREATE TABLE `customers` (
 --
 
 INSERT INTO `customers` (`customer_id`, `account_id`, `name`, `citizen_id`, `address`, `birthdate`, `phone`, `email`) VALUES
-('01', '03', 'Nguyen Van A', '123456789', '123 Main Street, Hanoi', '1990-01-15', '0901112233', 'a.nguyen@example.com'),
-('02', '04', 'Tran Thi B', '234567890', '456 Second Street, Ho Chi Minh City', '1992-05-30', '0912223344', 'b.tran@example.com'),
-('03', '05', 'Le Van C', '345678901', '789 Third Street, Da Nang', '1988-07-20', '0923334455', 'c.le@example.com'),
-('04', '06', 'Pham Thi D', '456789012', '101 Fourth Street, Hue', '1995-09-10', '0934445566', 'd.pham@example.com'),
-('05', '07', 'Hoang Van E', '567890123', '202 Fifth Street, Can Tho', '1993-03-15', '0945556677', 'e.hoang@example.com'),
-('06', '08', 'Dao Thi F', '678901234', '303 Sixth Street, Hai Phong', '1996-11-25', '0956667788', 'f.dao@example.com'),
-('07', '09', 'Nguyen Van G', '789012345', '404 Seventh Street, Nha Trang', '1989-02-28', '0967778899', 'g.nguyen@example.com'),
-('08', '10', 'Tran Van H', '890123456', '505 Eighth Street, Quy Nhon', '1994-08-12', '0978889900', 'h.tran@example.com');
+('KH01', 'ACC03', 'Nguyen Van A', '123456789', '123 Main Street, Hanoi', '1990-01-15', '0901112233', 'a.nguyen@example.com'),
+('KH02', 'ACC04', 'Tran Thi B', '234567890', '456 Second Street, Ho Chi Minh City', '1992-05-30', '0912223344', 'b.tran@example.com'),
+('KH03', 'ACC05', 'Le Van C', '345678901', '789 Third Street, Da Nang', '1988-07-20', '0923334455', 'c.le@example.com'),
+('KH04', 'ACC06', 'Pham Thi D', '456789012', '101 Fourth Street, Hue', '1995-09-10', '0934445566', 'd.pham@example.com'),
+('KH05', 'ACC07', 'Hoang Van E', '567890123', '202 Fifth Street, Can Tho', '1993-03-15', '0945556677', 'e.hoang@example.com'),
+('KH06', 'ACC08', 'Dao Thi F', '678901234', '303 Sixth Street, Hai Phong', '1996-11-25', '0956667788', 'f.dao@example.com'),
+('KH07', 'ACC09', 'Nguyen Van G', '789012345', '404 Seventh Street, Nha Trang', '1989-02-28', '0967778899', 'g.nguyen@example.com'),
+('KH08', 'ACC10', 'Tran Van H', '890123456', '505 Eighth Street, Quy Nhon', '1994-08-12', '0978889900', 'h.tran@example.com');
 
 -- --------------------------------------------------------
 
