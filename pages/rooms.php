@@ -68,7 +68,7 @@
         </div>
         <div class='offcanvas__auth'>
             <ul>
-                <li><a href='login.html'>Login/Register</a></li>
+                <li><a href='login/login.php'>Login | Register</a></li>
             </ul>
         </div>
     </div>
@@ -89,7 +89,7 @@
                         <div class='header__top__right'>
                             <div class='header__top__auth'>
                                 <ul>
-                                    <li><a href='login.html'>Login/Register</a></li>
+                                    <li><a href='login/login.php'>Login | Register</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -112,12 +112,9 @@
                                     <li><a href='../index.php'>Home</a></li>
                                     <li class='active'><a href='./rooms.php'>Rooms</a></li>
                                     <li><a href='./about.php'>About Us</a></li>
-                                    <li><a href='#'>Pages</a>
-                                        <ul class='dropdown'>
-                                            <li><a href='./about.php'>About Us</a></li>
-                                            <li><a href='./room-details.php'>Room Details</a></li>
+                                
                                             <li><a href='./blog-details.php'>Blog Details</a></li>
-                                        </ul>
+                                        
                                     </li>
                                     <li><a href='./blog.php'>News</a></li>
                                     <li><a href='./contact.php'>Contact</a></li>
