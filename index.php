@@ -45,11 +45,9 @@
         
         <div class='offcanvas__auth'>
             <ul>
-<<<<<<< HEAD
-                <li><a href='../pages/login.html'>Login/Register</a></li>
-=======
-               <li><a href='./pages/login.html'>Login | Register</a></li>
->>>>>>> 43537560d7df06a558641f5bf2770725047a92a3
+
+               <li><a href='login/login.php'>Login | Register</a></li>
+
             </ul>
         </div>
     </div>
@@ -70,7 +68,7 @@
                         <div class='header__top__right'>
                             <div class='header__top__auth'>
                                 <ul>
-                                    <li><a href='./pages/login.html'>Login/Register</a></li>
+                                    <li><a href='login/login.php'>Login/Register</a></li>
                                 </ul>
                             </div>
                             
@@ -94,13 +92,10 @@
                                     <li class='active'><a href='./index.php'>Home</a></li>
                                     <li><a href='./pages/rooms.php'>Rooms</a></li>
                                     <li><a href='./pages/about.php'>About Us</a></li>
-                                    <li><a href='#'>Pages</a>
-                                        <ul class='dropdown'>
-                                            <li><a href='./page/about.php'>About Us</a></li>
-                                            <li><a href='./pages/room-details.php'>Room Details</a></li>
+                                  
                                             <li><a href='./pages/blog-details.php'>Blog Details</a></li>
-                                        </ul>
-                                    </li>
+                                       
+                                   
                                     <li><a href='./pages/blog.php'>News</a></li>
                                     <li><a href='./pages/contact.php'>Contact</a></li>
                                 </ul>
