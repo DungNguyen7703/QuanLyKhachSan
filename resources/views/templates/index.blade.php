@@ -6,8 +6,8 @@
     <meta name="keywords" content="Hiroto, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Hiroto | Template</title>
-
+    <title>Hiroto</title>
+    <link rel= "icon" href="{{ asset('assets/img/favicon.png') }}" type= "image/x-icon">
     <!-- Css Styles -->
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}" type="text/css">
     <link rel="stylesheet" href="{{ asset('assets/css/font-awesome.min.css') }}" type="text/css">
@@ -29,7 +29,7 @@
     <div class="offcanvas-menu-overlay"></div>
     <div class="offcanvas-menu-wrapper">
         <div class="offcanvas__logo">
-            <a href="index.html"><img src="{{asset('assets/img/logo.png')}}" alt=""></a>
+            <a href="/"><img src="img/logo.png" alt=""></a>
         </div>
         <div id="mobile-menu-wrap"></div>
         <div class="offcanvas__btn__widget">
@@ -97,25 +97,25 @@
                 <div class="row">
                     <div class="col-lg-2">
                         <div class="header__logo">
-                            <a href="index.html"><img src="{{asset('assets/img/logo.png')}}" alt=""></a>
+                            <a href="/"><img src="img/logo.png" alt=""></a>
                         </div>
                     </div>
                     <div class="col-lg-10">
                         <div class="header__nav">
                             <nav class="header__menu">
                                 <ul class="menu__class">
-                                    <li class="active"><a href="index.html">Home</a></li>
-                                    <li><a href="rooms.html">Rooms</a></li>
-                                    <li><a href="about.html">About Us</a></li>
+                                    <li class="active"><a href="/">Home</a></li>
+                                    <li><a href="rooms">Rooms</a></li>
+                                    <li><a href="about">About Us</a></li>
                                     <li><a href="#">Pages</a>
                                         <ul class="dropdown">
-                                            <li><a href="about.html">About Us</a></li>
-                                            <li><a href="room-details.html">Room Details</a></li>
-                                            <li><a href="blog-details.html">Blog Details</a></li>
+                                            <li><a href="about">About Us</a></li>
+                                            <li><a href="room-details">Room Details</a></li>
+                                            <li><a href="blog-details">Blog Details</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="blog.html">News</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="blog">News</a></li>
+                                    <li><a href="contact">Contact</a></li>
                                 </ul>
                             </nav>
                             <div class="header__nav__widget">
@@ -134,7 +134,7 @@
 
     <!-- Hero Section Begin -->
     <!-- Hero Section Begin -->
-    <section class="hero spad set-bg" data-setbg="{{asset('assets/img/hero.jpg')}}">
+    <section class="hero spad set-bg" data-setbg="assets/img/hero.jpg">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -206,7 +206,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="home__about__pic">
-                        <img src="{{asset('img/home-about/home-about.png')}}" alt="">
+                        <img src="{{asset('assets/img/home-about/home-about.png')}}" alt="">
                     </div>
                 </div>
             </div>
@@ -599,7 +599,7 @@
                 </div>
                 <div class="col-lg-3 p-0 order-lg-8 col-md-6 order-md-8">
                     <div class="latest__blog__pic latest__blog__pic__last__row set-bg"
-                        data-setbg="assets/img/latest-blog/lb-4.jpg"></div>
+                        data-setbg="{{asset('assets/img/latest-blog/lb-4.jpg')}}"></div>
                 </div>
                 <div class="col-lg-3 p-0 order-lg-7 col-md-6 order-md-7">
                     <div class="latest__blog__text">
@@ -615,7 +615,7 @@
     <!-- Latest Blog Section End -->
 
     <!-- Footer Section Begin -->
-    <footer class="footer set-bg" data-setbg="{{asset('assets//footer-bg.jpg')}}">
+    <footer class="footer set-bg" data-setbg="{{asset('assets/img/footer-bg.jpg')}}">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -726,7 +726,6 @@
     <script src="{{asset('assets/js/jquery.slicknav.js')}}"></script>
     <script src="{{asset('assets/js/owl.carousel.min.js')}}"></script>
     <script src="{{asset('assets/js/main.js')}}"></script>
-    @livewireScripts
 </body>
 
 </html>

@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="zxx">
 
 <head>
     <meta charset="UTF-8">
@@ -9,20 +8,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Hiroto | Template</title>
 
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
-
     <!-- Css Styles -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
-    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
-    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('assets/css/font-awesome.min.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('assets/css/elegant-icons.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('assets/css/nice-select.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('assets/css/jquery-ui.min.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('assets/css/owl.carousel.min.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('assets/css/slicknav.min.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}" type="text/css">
 </head>
 
 <body>
@@ -35,24 +29,8 @@
     <div class="offcanvas-menu-overlay"></div>
     <div class="offcanvas-menu-wrapper">
         <div class="offcanvas__logo">
-            <a href="./index.html"><img src="img/logo.png" alt=""></a>
+            <a href=""><img src="{{asset('assets/img/logo.png')}}" alt=""></a>
         </div>
-        <nav class="offcanvas__menu mobile-menu">
-            <ul>
-                <li class="active"><a href="./index.html">Home</a></li>
-                <li><a href="./rooms.html">Rooms</a></li>
-                <li><a href="./about.html">About Us</a></li>
-                <li><a href="#">Pages</a>
-                    <ul class="dropdown">
-                        <li><a href="./about.html">About Us</a></li>
-                        <li><a href="./room-details.html">Room Details</a></li>
-                        <li><a href="./blog-details.html">Blog Details</a></li>
-                    </ul>
-                </li>
-                <li><a href="./blog.html">News</a></li>
-                <li><a href="./contact.html">Contact</a></li>
-            </ul>
-        </nav>
         <div id="mobile-menu-wrap"></div>
         <div class="offcanvas__btn__widget">
             <a href="#">Book Now <span class="arrow_right"></span></a>
@@ -64,7 +42,7 @@
             </ul>
         </div>
         <div class="offcanvas__language">
-            <img src="img/lan.png" alt="">
+            <img src="{{asset('assets/img/lan.png')}}" alt="">
             <span>English</span>
             <i class="fa fa-angle-down"></i>
             <ul>
@@ -101,7 +79,7 @@
                                 </ul>
                             </div>
                             <div class="header__top__language">
-                                <img src="img/lan.png" alt="">
+                                <img src="{{asset('assets/img/lan.png')}}" alt="">
                                 <span>English</span>
                                 <i class="fa fa-angle-down"></i>
                                 <ul>
@@ -119,25 +97,25 @@
                 <div class="row">
                     <div class="col-lg-2">
                         <div class="header__logo">
-                            <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                            <a href="/"><img src="{{asset('assets/img/logo.png')}}" alt=""></a>
                         </div>
                     </div>
                     <div class="col-lg-10">
                         <div class="header__nav">
                             <nav class="header__menu">
-                                <ul>
-                                    <li><a href="./index.html">Home</a></li>
-                                    <li class="active"><a href="./rooms.html">Rooms</a></li>
-                                    <li><a href="./about.html">About Us</a></li>
+                                <ul class="menu__class">
+                                    <li class="active"><a href="/">Home</a></li>
+                                    <li><a href="rooms">Rooms</a></li>
+                                    <li><a href="about">About Us</a></li>
                                     <li><a href="#">Pages</a>
                                         <ul class="dropdown">
-                                            <li><a href="./about.html">About Us</a></li>
-                                            <li><a href="./room-details.html">Room Details</a></li>
-                                            <li><a href="./blog-details.html">Blog Details</a></li>
+                                            <li><a href="about">About Us</a></li>
+                                            <li><a href="room-details">Room Details</a></li>
+                                            <li><a href="blog-details">Blog Details</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="./blog.html">News</a></li>
-                                    <li><a href="./contact.html">Contact</a></li>
+                                    <li><a href="blog">News</a></li>
+                                    <li><a href="contact">Contact</a></li>
                                 </ul>
                             </nav>
                             <div class="header__nav__widget">
@@ -155,14 +133,14 @@
     <!-- Header Section End -->
 
     <!-- Breadcrumb Begin -->
-    <div class="breadcrumb-option set-bg" data-setbg="img/breadcrumb-bg.jpg">
+    <div class="breadcrumb-option set-bg" data-setbg="{{asset('assets/img/breadcrumb-bg.jpg')}}">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="breadcrumb__text">
                         <h1>Our Room</h1>
                         <div class="breadcrumb__links">
-                            <a href="./index.html">Home</a>
+                            <a href="/">Home</a>
                             <span>Rooms</span>
                         </div>
                     </div>
@@ -178,10 +156,10 @@
             <div class="row">
                 <div class="col-lg-6 p-0 order-lg-2 order-md-2 col-md-6">
                     <div class="room__pic__slider owl-carousel">
-                        <div class="room__pic__item set-bg" data-setbg="img/rooms/room-1.jpg"></div>
-                        <div class="room__pic__item set-bg" data-setbg="img/rooms/room-2.jpg"></div>
-                        <div class="room__pic__item set-bg" data-setbg="img/rooms/room-3.jpg"></div>
-                        <div class="room__pic__item set-bg" data-setbg="img/rooms/room-4.jpg"></div>
+                        <div class="room__pic__item set-bg" data-setbg="{{asset('assets/img/rooms/room-1.jpg')}}"></div>
+                        <div class="room__pic__item set-bg" data-setbg="{{asset('assets/img/rooms/room-2.jpg')}}"></div>
+                        <div class="room__pic__item set-bg" data-setbg="{{asset('assets/img/rooms/room-3.jpg')}}"></div>
+                        <div class="room__pic__item set-bg" data-setbg="{{asset('assets/img/rooms/room-4.jpg')}}"></div>
                     </div>
                 </div>
                 <div class="col-lg-6 p-0 order-lg-1 order-md-1 col-md-6">
@@ -200,10 +178,10 @@
                 </div>
                 <div class="col-lg-6 p-0 order-lg-3 order-md-3 col-md-6">
                     <div class="room__pic__slider owl-carousel">
-                        <div class="room__pic__item set-bg" data-setbg="img/rooms/room-2.jpg"></div>
-                        <div class="room__pic__item set-bg" data-setbg="img/rooms/room-3.jpg"></div>
-                        <div class="room__pic__item set-bg" data-setbg="img/rooms/room-4.jpg"></div>
-                        <div class="room__pic__item set-bg" data-setbg="img/rooms/room-1.jpg"></div>
+                        <div class="room__pic__item set-bg" data-setbg="{{asset('assets/img/rooms/room-2.jpg')}}"></div>
+                        <div class="room__pic__item set-bg" data-setbg="{{asset('assets/img/rooms/room-3.jpg')}}"></div>
+                        <div class="room__pic__item set-bg" data-setbg="{{asset('assets/img/rooms/room-4.jpg')}}"></div>
+                        <div class="room__pic__item set-bg" data-setbg="{{asset('assets/img/rooms/room-1.jpg')}}"></div>
                     </div>
                 </div>
                 <div class="col-lg-6 p-0 order-lg-4 order-md-4 col-md-6">
@@ -222,10 +200,10 @@
                 </div>
                 <div class="col-lg-6 p-0 order-lg-6 order-md-6 col-md-6">
                     <div class="room__pic__slider owl-carousel">
-                        <div class="room__pic__item set-bg" data-setbg="img/rooms/room-3.jpg"></div>
-                        <div class="room__pic__item set-bg" data-setbg="img/rooms/room-4.jpg"></div>
-                        <div class="room__pic__item set-bg" data-setbg="img/rooms/room-2.jpg"></div>
-                        <div class="room__pic__item set-bg" data-setbg="img/rooms/room-1.jpg"></div>
+                        <div class="room__pic__item set-bg" data-setbg="{{asset('assets/img/rooms/room-3.jpg')}}"></div>
+                        <div class="room__pic__item set-bg" data-setbg="{{asset('assets/img/rooms/room-4.jpg')}}"></div>
+                        <div class="room__pic__item set-bg" data-setbg="{{asset('assets/img/rooms/room-2.jpg')}}"></div>
+                        <div class="room__pic__item set-bg" data-setbg="{{asset('assets/img/rooms/room-1.jpg')}}"></div>
                     </div>
                 </div>
                 <div class="col-lg-6 p-0 order-lg-5 order-md-5 col-md-6">
@@ -244,10 +222,10 @@
                 </div>
                 <div class="col-lg-6 p-0 order-lg-7 order-md-7 col-md-6">
                     <div class="room__pic__slider owl-carousel">
-                        <div class="room__pic__item set-bg" data-setbg="img/rooms/room-4.jpg"></div>
-                        <div class="room__pic__item set-bg" data-setbg="img/rooms/room-1.jpg"></div>
-                        <div class="room__pic__item set-bg" data-setbg="img/rooms/room-2.jpg"></div>
-                        <div class="room__pic__item set-bg" data-setbg="img/rooms/room-3.jpg"></div>
+                        <div class="room__pic__item set-bg" data-setbg="{{asset('assets/img/rooms/room-4.jpg')}}"></div>
+                        <div class="room__pic__item set-bg" data-setbg="{{asset('assets/img/rooms/room-1.jpg')}}"></div>
+                        <div class="room__pic__item set-bg" data-setbg="{{asset('assets/img/rooms/room-2.jpg')}}"></div>
+                        <div class="room__pic__item set-bg" data-setbg="{{asset('assets/img/rooms/room-3.jpg')}}"></div>
                     </div>
                 </div>
                 <div class="col-lg-6 p-0 order-lg-8 order-md-8 col-md-6">
@@ -279,25 +257,25 @@
     <!-- Rooms Section End -->
 
     <!-- Footer Section Begin -->
-    <footer class="footer set-bg" data-setbg="img/footer-bg.jpg">
+    <footer class="footer set-bg" data-setbg="{{asset('assets/img/footer-bg.jpg')}}">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="logo__carousel owl-carousel">
                         <div class="logo__carousel__item">
-                            <a href="#"><img src="img/logo/logo-1.png" alt=""></a>
+                            <a href="#"><img src="{{asset('assets/img/logo/logo-1.png')}}" alt=""></a>
                         </div>
                         <div class="logo__carousel__item">
-                            <a href="#"><img src="img/logo/logo-2.png" alt=""></a>
+                            <a href="#"><img src="{{asset('assets/img/logo/logo-2.png')}}" alt=""></a>
                         </div>
                         <div class="logo__carousel__item">
-                            <a href="#"><img src="img/logo/logo-3.png" alt=""></a>
+                            <a href="#"><img src="{{asset('assets/img/logo/logo-3.png')}}" alt=""></a>
                         </div>
                         <div class="logo__carousel__item">
-                            <a href="#"><img src="img/logo/logo-4.png" alt=""></a>
+                            <a href="#"><img src="{{asset('assets/img/logo/logo-4.png')}}" alt=""></a>
                         </div>
                         <div class="logo__carousel__item">
-                            <a href="#"><img src="img/logo/logo-5.png" alt=""></a>
+                            <a href="#"><img src="{{asset('assets/img/logo/logo-5.png')}}" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -309,7 +287,7 @@
                     <div class="col-lg-3 col-md-6 col-sm-6">
                         <div class="footer__about">
                             <div class="footer__logo">
-                                <a href="#"><img src="img/logo.png" alt=""></a>
+                                <a href="#"><img src="{{asset('assets/img/logo.png')}}" alt=""></a>
                             </div>
                             <h4>(123) 456-78-91096</h4>
                             <ul>
@@ -383,13 +361,13 @@
     <!-- Footer Section End -->
 
     <!-- Js Plugins -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.nice-select.min.js"></script>
-    <script src="js/jquery-ui.min.js"></script>
-    <script src="js/jquery.slicknav.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="{{asset('assets/js/jquery-3.3.1.min.js')}}"></script>
+    <script src="{{asset('assets/js/bootstrap.min.js')}}"></script>
+    <script src="{{asset('assets/js/jquery.nice-select.min.js')}}"></script>
+    <script src="{{asset('assets/js/jquery-ui.min.js')}}"></script>
+    <script src="{{asset('assets/js/jquery.slicknav.js')}}"></script>
+    <script src="{{asset('assets/js/owl.carousel.min.js')}}"></script>
+    <script src="{{asset('assets/js/main.js')}}"></script>
 </body>
 
 </html>
