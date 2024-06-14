@@ -41,3 +41,18 @@ Route::middleware(['auth', 'role:customer'])->group(function () {
         return view('templates.index');
     });
 });
+Route::get('/rooms', function () {
+    return view('templates/rooms');
+});
+Route::get('/about', function () {
+    return view('templates/about');
+});
+Route::get('/contact', function () {
+    return view('templates/contact');
+});
+Route::get('/blog', function () {
+    return view('templates/blog');
+});
+Route::get('/booking', function () {
+    return view('templates/booking');
+});
