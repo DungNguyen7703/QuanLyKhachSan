@@ -15,14 +15,14 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
 
     <!-- Css Styles -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
-    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
-    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
-    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
-    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('assets/css/font-awesome.min.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('assets/css/elegant-icons.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('assets/css/nice-select.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('assets/css/jquery-ui.min.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('assets/css/owl.carousel.min.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('assets/css/slicknav.min.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}" type="text/css">
 </head>
 
 <body>
@@ -35,7 +35,7 @@
     <div class="offcanvas-menu-overlay"></div>
     <div class="offcanvas-menu-wrapper">
         <div class="offcanvas__logo">
-            <a href="./index.html"><img src="img/logo.png" alt=""></a>
+            <a href="./index.html"><img src="{{asset('assets/img/logo.png')}}" alt=""></a>
         </div>
         <nav class="offcanvas__menu mobile-menu">
             <ul>
@@ -64,7 +64,7 @@
             </ul>
         </div>
         <div class="offcanvas__language">
-            <img src="img/lan.png" alt="">
+            <img src="{{asset('assets/img/lan.png')}}" alt="">
             <span>English</span>
             <i class="fa fa-angle-down"></i>
             <ul>
@@ -101,7 +101,7 @@
                                 </ul>
                             </div>
                             <div class="header__top__language">
-                                <img src="img/lan.png" alt="">
+                                <img src="{{asset('assets/img/lan.png')}}" alt="">
                                 <span>English</span>
                                 <i class="fa fa-angle-down"></i>
                                 <ul>
@@ -119,7 +119,7 @@
                 <div class="row">
                     <div class="col-lg-2">
                         <div class="header__logo">
-                            <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                            <a href="./index.html"><img src="{{asset('assets/img/logo.png')}}" alt=""></a>
                         </div>
                     </div>
                     <div class="col-lg-10">
@@ -155,7 +155,7 @@
     <!-- Header Section End -->
 
     <!-- Breadcrumb Begin -->
-    <div class="breadcrumb-option set-bg" data-setbg="img/breadcrumb-bg.jpg">
+    <div class="breadcrumb-option set-bg" data-setbg="{{asset('assets/img/hero.jpg')}}">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -178,10 +178,10 @@
             <div class="row">
                 <div class="col-lg-6 p-0 order-lg-2 order-md-2 col-md-6">
                     <div class="room__pic__slider owl-carousel">
-                        <div class="room__pic__item set-bg" data-setbg="img/rooms/room-1.jpg"></div>
-                        <div class="room__pic__item set-bg" data-setbg="img/rooms/room-2.jpg"></div>
-                        <div class="room__pic__item set-bg" data-setbg="img/rooms/room-3.jpg"></div>
-                        <div class="room__pic__item set-bg" data-setbg="img/rooms/room-4.jpg"></div>
+                        <div class="room__pic__item set-bg" data-setbg="{{asset('assets/img/rooms/room-1.jpg')}}"></div>
+                       <div class="room__pic__item set-bg" data-setbg="{{ asset('assets/img/rooms/room-2.jpg') }}"></div>
+                        <div class="room__pic__item set-bg" data-setbg="{{ asset('assets/img/rooms/room-3.jpg') }}"></div>
+                        <div class="room__pic__item set-bg" data-setbg="{{ asset('assets/img/rooms/room-4.jpg') }}"></div>
                     </div>
                 </div>
                 <div class="col-lg-6 p-0 order-lg-1 order-md-1 col-md-6">
@@ -200,10 +200,10 @@
                 </div>
                 <div class="col-lg-6 p-0 order-lg-3 order-md-3 col-md-6">
                     <div class="room__pic__slider owl-carousel">
-                        <div class="room__pic__item set-bg" data-setbg="img/rooms/room-2.jpg"></div>
-                        <div class="room__pic__item set-bg" data-setbg="img/rooms/room-3.jpg"></div>
-                        <div class="room__pic__item set-bg" data-setbg="img/rooms/room-4.jpg"></div>
-                        <div class="room__pic__item set-bg" data-setbg="img/rooms/room-1.jpg"></div>
+                <div class="room__pic__item set-bg" data-setbg="{{ asset('assets/img/rooms/room-2.jpg') }}"></div>
+                <div class="room__pic__item set-bg" data-setbg="{{ asset('assets/img/rooms/room-3.jpg') }}"></div>
+                <div class="room__pic__item set-bg" data-setbg="{{ asset('assets/img/rooms/room-4.jpg') }}"></div>
+                <div class="room__pic__item set-bg" data-setbg="{{ asset('assets/img/rooms/room-1.jpg') }}"></div>
                     </div>
                 </div>
                 <div class="col-lg-6 p-0 order-lg-4 order-md-4 col-md-6">
@@ -222,10 +222,10 @@
                 </div>
                 <div class="col-lg-6 p-0 order-lg-6 order-md-6 col-md-6">
                     <div class="room__pic__slider owl-carousel">
-                        <div class="room__pic__item set-bg" data-setbg="img/rooms/room-3.jpg"></div>
-                        <div class="room__pic__item set-bg" data-setbg="img/rooms/room-4.jpg"></div>
-                        <div class="room__pic__item set-bg" data-setbg="img/rooms/room-2.jpg"></div>
-                        <div class="room__pic__item set-bg" data-setbg="img/rooms/room-1.jpg"></div>
+                <div class="room__pic__item set-bg" data-setbg="{{ asset('assets/img/rooms/room-3.jpg') }}"></div>
+                <div class="room__pic__item set-bg" data-setbg="{{ asset('assets/img/rooms/room-4.jpg') }}"></div>
+                <div class="room__pic__item set-bg" data-setbg="{{ asset('assets/img/rooms/room-2.jpg') }}"></div>
+                <div class="room__pic__item set-bg" data-setbg="{{ asset('assets/img/rooms/room-1.jpg') }}"></div>
                     </div>
                 </div>
                 <div class="col-lg-6 p-0 order-lg-5 order-md-5 col-md-6">
@@ -244,10 +244,10 @@
                 </div>
                 <div class="col-lg-6 p-0 order-lg-7 order-md-7 col-md-6">
                     <div class="room__pic__slider owl-carousel">
-                        <div class="room__pic__item set-bg" data-setbg="img/rooms/room-4.jpg"></div>
-                        <div class="room__pic__item set-bg" data-setbg="img/rooms/room-1.jpg"></div>
-                        <div class="room__pic__item set-bg" data-setbg="img/rooms/room-2.jpg"></div>
-                        <div class="room__pic__item set-bg" data-setbg="img/rooms/room-3.jpg"></div>
+                <div class="room__pic__item set-bg" data-setbg="{{ asset('assets/img/rooms/room-4.jpg') }}"></div>
+                <div class="room__pic__item set-bg" data-setbg="{{ asset('assets/img/rooms/room-3.jpg') }}"></div>
+                <div class="room__pic__item set-bg" data-setbg="{{ asset('assets/img/rooms/room-2.jpg') }}"></div>
+                <div class="room__pic__item set-bg" data-setbg="{{ asset('assets/img/rooms/room-1.jpg') }}"></div>
                     </div>
                 </div>
                 <div class="col-lg-6 p-0 order-lg-8 order-md-8 col-md-6">
@@ -383,13 +383,13 @@
     <!-- Footer Section End -->
 
     <!-- Js Plugins -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.nice-select.min.js"></script>
-    <script src="js/jquery-ui.min.js"></script>
-    <script src="js/jquery.slicknav.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="{{asset('assets/js/jquery-3.3.1.min.js')}}"></script>
+    <script src="{{asset('assets/js/bootstrap.min.js')}}"></script>
+    <script src="{{asset('assets/js/jquery.nice-select.min.js')}}"></script>
+    <script src="{{asset('assets/js/jquery-ui.min.js')}}"></script>
+    <script src="{{asset('assets/js/jquery.slicknav.js')}}"></script>
+    <script src="{{asset('assets/js/owl.carousel.min.js')}}"></script>
+    <script src="{{asset('assets/js/main.js')}}"></script>
 </body>
 
 </html>

@@ -16,3 +16,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('templates/index');
 });
+
+Route::get('/rooms', [App\Http\Controllers\PagesController::class, 'rooms']);
