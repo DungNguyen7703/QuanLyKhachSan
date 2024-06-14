@@ -18,9 +18,9 @@ Route::get('/', function () {
     return view('templates.index');
 })->name('index');
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+Route::get('/admin', function () {
+    return view('templates/admin/dashboard');
+})->middleware(['auth', 'verified'])->name('dasboard');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
@@ -38,8 +38,17 @@ require __DIR__ . '/auth.php';
 
 Route::middleware(['auth', 'role:customer'])->group(function () {
     Route::get('/welcome', function () {
-        return view('templates.index');
+        return view('templates/index');
     });
+});
+Route::get('/admin/dashboard', function () {
+    return view('templates/admin/dashboard');
+});
+Route::get('/admin/account_list', function () {
+    return view('templates/admin/account_list');
+});
+Route::get('/admin/profile', function () {
+    return view('templates/admin/profile');
 });
 Route::get('/rooms', function () {
     return view('templates/rooms');
