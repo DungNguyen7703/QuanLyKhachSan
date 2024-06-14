@@ -29,7 +29,7 @@
     <div class="offcanvas-menu-overlay"></div>
     <div class="offcanvas-menu-wrapper">
         <div class="offcanvas__logo">
-            <a href="./index.html"><img src="img/logo.png" alt=""></a>
+            <a href="index.html"><img src="{{asset('assets/img/logo.png')}}" alt=""></a>
         </div>
         <div id="mobile-menu-wrap"></div>
         <div class="offcanvas__btn__widget">
@@ -42,7 +42,7 @@
             </ul>
         </div>
         <div class="offcanvas__language">
-            <img src="img/lan.png" alt="">
+            <img src="{{asset('assets/img/lan.png')}}" alt="">
             <span>English</span>
             <i class="fa fa-angle-down"></i>
             <ul>
@@ -79,7 +79,7 @@
                                 </ul>
                             </div>
                             <div class="header__top__language">
-                                <img src="img/lan.png" alt="">
+                                <img src="{{asset('assets/img/lan.png')}}" alt="">
                                 <span>English</span>
                                 <i class="fa fa-angle-down"></i>
                                 <ul>
@@ -97,25 +97,25 @@
                 <div class="row">
                     <div class="col-lg-2">
                         <div class="header__logo">
-                            <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                            <a href="index.html"><img src="{{asset('assets/img/logo.png')}}" alt=""></a>
                         </div>
                     </div>
                     <div class="col-lg-10">
                         <div class="header__nav">
                             <nav class="header__menu">
                                 <ul class="menu__class">
-                                    <li class="active"><a href="./index.html">Home</a></li>
-                                    <li><a href="./rooms.html">Rooms</a></li>
-                                    <li><a href="./about.html">About Us</a></li>
+                                    <li class="active"><a href="index.html">Home</a></li>
+                                    <li><a href="rooms.html">Rooms</a></li>
+                                    <li><a href="about.html">About Us</a></li>
                                     <li><a href="#">Pages</a>
                                         <ul class="dropdown">
-                                            <li><a href="./about.html">About Us</a></li>
-                                            <li><a href="./room-details.html">Room Details</a></li>
-                                            <li><a href="./blog-details.html">Blog Details</a></li>
+                                            <li><a href="about.html">About Us</a></li>
+                                            <li><a href="room-details.html">Room Details</a></li>
+                                            <li><a href="blog-details.html">Blog Details</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="./blog.html">News</a></li>
-                                    <li><a href="./contact.html">Contact</a></li>
+                                    <li><a href="blog.html">News</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
                                 </ul>
                             </nav>
                             <div class="header__nav__widget">
@@ -201,7 +201,7 @@
                         <p class="last-para">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                             accusantium
                             doloremque.</p>
-                        <img src="{{asset('img/home-about/sign.png')}}" alt="">
+                        <img src="{{asset('assets/img/home-about/sign.png')}}" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -220,7 +220,7 @@
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="services__item">
-                        <img src="{{asset('img/services/services-1.png')}}" alt="">
+                        <img src="{{asset('assets/img/services/services-1.png')}}" alt="">
                         <h4>Free Wi-Fi</h4>
                         <p>The massive investment in a hotel or resort requires constant reviews and control in
                             order to
@@ -229,7 +229,7 @@
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="services__item">
-                        <img src="{{asset('img/services/services-2.png')}}" alt="">
+                        <img src="{{asset('assets/img/services/services-2.png')}}" alt="">
                         <h4>Premium Pool</h4>
                         <p>Choose from 4 unique ready made concepts, let us help you create the concept perfect for
                             you
@@ -238,7 +238,7 @@
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="services__item">
-                        <img src="{{asset('img/services/services-3.png')}}" alt="">
+                        <img src="{{asset('assets/img/services/services-3.png')}}" alt="">
                         <h4>Coffee Maker</h4>
                         <p>HCA"s Owner"s Representation is taking care of just these important factors, may it be
                             through regular site visits and spot checks.</p>
@@ -246,7 +246,7 @@
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="services__item">
-                        <img src="{{asset('img/services/services-4.png')}}" alt="">
+                        <img src="{{asset('assets/img/services/services-4.png')}}" alt="">
                         <h4>Bar Wine</h4>
                         <p>For properties with third party management companies, HCA Consultants will as well
                             administer
@@ -255,7 +255,7 @@
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="services__item">
-                        <img src="{{asset('img/services/services-5.png')}}" alt="">
+                        <img src="{{asset('assets/img/services/services-5.png')}}" alt="">
                         <h4>TV HD</h4>
                         <p>We provide a critical analysis of a hotel"s marketing strategy, bench-marking it against
                             industry and competitive practices.</p>
@@ -263,7 +263,7 @@
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-6">
                     <div class="services__item">
-                        <img src="{{asset('img/services/services-6.png')}}" alt="">
+                        <img src="{{asset('assets/img/services/services-6.png')}}" alt="">
                         <h4>Restaurant</h4>
                         <p>A hotel and restaurant investment deserves careful and market oriented financial planning
                             and
@@ -290,7 +290,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-3 col-md-6 col-sm-6 p-0">
-                    <div class="home__room__item set-bg" data-setbg="{{asset('img/home-room/hr-1.jpg')}}">
+                    <div class="home__room__item set-bg" data-setbg="{{asset('assets/img/home-room/hr-1.jpg')}}">
                         <div class="home__room__title">
                             <h4>Deluxe Room</h4>
                             <h2><sup>$</sup>55<span>/day</span></h2>
@@ -299,7 +299,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 p-0">
-                    <div class="home__room__item set-bg" data-setbg="{{asset('img/home-room/hr-2.jpg')}}">
+                    <div class="home__room__item set-bg" data-setbg="{{asset('assets/img/home-room/hr-2.jpg')}}">
                         <div class="home__room__title">
                             <h4>Deluxe Room</h4>
                             <h2><sup>$</sup>85<span>/day</span></h2>
@@ -308,7 +308,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 p-0">
-                    <div class="home__room__item set-bg" data-setbg="{{asset('img/home-room/hr-3.jpg')}}">
+                    <div class="home__room__item set-bg" data-setbg="{{asset('assets/img/home-room/hr-3.jpg')}}">
                         <div class="home__room__title">
                             <h4>Deluxe Room</h4>
                             <h2><sup>$</sup>94<span>/day</span></h2>
@@ -317,7 +317,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 col-sm-6 p-0">
-                    <div class="home__room__item set-bg" data-setbg="{{asset('img/home-room/hr-4.jpg')}}">
+                    <div class="home__room__item set-bg" data-setbg="{{asset('assets/img/home-room/hr-4.jpg')}}">
                         <div class="home__room__title">
                             <h4>Deluxe Room</h4>
                             <h2><sup>$</sup>71<span>/day</span></h2>
@@ -348,7 +348,7 @@
             <div class="row">
                 <div class="col-lg-5">
                     <div class="testimonial__pic">
-                        <img src="{{asset('img/testimonial-left.jpg')}}" alt="">
+                        <img src="{{asset('assets/img/testimonial-left.jpg')}}" alt="">
                     </div>
                 </div>
                 <div class="col-lg-7">
@@ -503,7 +503,7 @@
     <!-- Testimonial Section End -->
 
     <!-- Chooseus Section Begin -->
-    <div class="chooseus spad set-bg" data-setbg="{{asset('img/chooseus-bg.jpg')}}">
+    <div class="chooseus spad set-bg" data-setbg="{{asset('assets/img/chooseus-bg.jpg')}}">
         <div class="container">
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-8 text-center">
@@ -543,10 +543,10 @@
             </div>
         </div>
         <div class="gallery__slider owl-carousel">
-            <div class="gallery__item small__item set-bg" data-setbg="{{asset('img/gallery/gallery-1.jpg')}}"></div>
-            <div class="gallery__item set-bg" data-setbg="{{asset('img/gallery/gallery-2.jpg')}}"></div>
-            <div class="gallery__item set-bg" data-setbg="{{asset('img/gallery/gallery-3.jpg')}}"></div>
-            <div class="gallery__item set-bg" data-setbg="{{asset('img/gallery/gallery-4.jpg')}}"></div>
+            <div class="gallery__item small__item set-bg" data-setbg="{{asset('assets/img/gallery/gallery-1.jpg')}}"></div>
+            <div class="gallery__item set-bg" data-setbg="{{asset('assets/img/gallery/gallery-2.jpg')}}"></div>
+            <div class="gallery__item set-bg" data-setbg="{{asset('assets/img/gallery/gallery-3.jpg')}}"></div>
+            <div class="gallery__item set-bg" data-setbg="{{asset('assets/img/gallery/gallery-4.jpg')}}"></div>
         </div>
     </section>
     <!-- Gallery Section End -->
@@ -564,7 +564,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-3 p-0 order-lg-1 col-md-6 order-md-1">
-                    <div class="latest__blog__pic set-bg" data-setbg="{{asset('img/latest-blog/lb-1.jpg')}}"></div>
+                    <div class="latest__blog__pic set-bg" data-setbg="{{asset('assets/img/latest-blog/lb-1.jpg')}}"></div>
                 </div>
                 <div class="col-lg-3 p-0 order-lg-2 col-md-6 order-md-2">
                     <div class="latest__blog__text">
@@ -575,7 +575,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 p-0 order-lg-3 col-md-6 order-md-4">
-                    <div class="latest__blog__pic set-bg" data-setbg="{{asset('img/latest-blog/lb-2.jpg')}}"></div>
+                    <div class="latest__blog__pic set-bg" data-setbg="{{asset('assets/img/latest-blog/lb-2.jpg')}}"></div>
                 </div>
                 <div class="col-lg-3 p-0 order-lg-4 col-md-6 order-md-3">
                     <div class="latest__blog__text">
@@ -587,7 +587,7 @@
                 </div>
                 <div class="col-lg-3 p-0 order-lg-6 col-md-6 order-md-5">
                     <div class="latest__blog__pic latest__blog__pic__last__row set-bg"
-                        data-setbg="{{asset('img/latest-blog/lb-3.jpg')}}"></div>
+                        data-setbg="{{asset('assets/img/latest-blog/lb-3.jpg')}}"></div>
                 </div>
                 <div class="col-lg-3 p-0 order-lg-5 col-md-6 order-md-6">
                     <div class="latest__blog__text">
@@ -599,7 +599,7 @@
                 </div>
                 <div class="col-lg-3 p-0 order-lg-8 col-md-6 order-md-8">
                     <div class="latest__blog__pic latest__blog__pic__last__row set-bg"
-                        data-setbg="img/latest-blog/lb-4.jpg"></div>
+                        data-setbg="assets/img/latest-blog/lb-4.jpg"></div>
                 </div>
                 <div class="col-lg-3 p-0 order-lg-7 col-md-6 order-md-7">
                     <div class="latest__blog__text">
@@ -615,7 +615,7 @@
     <!-- Latest Blog Section End -->
 
     <!-- Footer Section Begin -->
-    <footer class="footer set-bg" data-setbg="{{asset('assets/img/footer-bg.jpg')}}">
+    <footer class="footer set-bg" data-setbg="{{asset('assets//footer-bg.jpg')}}">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
