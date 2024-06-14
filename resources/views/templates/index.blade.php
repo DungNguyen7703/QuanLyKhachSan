@@ -74,8 +74,24 @@
                         <div class="header__top__right">
                             <div class="header__top__auth">
                                 <ul>
-                                    <li><a href="#">Login</a></li>
-                                    <li><a href="#">Register</a></li>
+                                    @auth
+                                        <li class="text-sm text-gray-700 dark:text-gray-500 underline">Welcome {{ Auth::user()->name }} !</li>
+                                        <li>
+                                            <form method="POST" action="{{ route('logout') }}">
+                                            @csrf
+                                            <x-dropdown-link :href="route('logout')"
+                                                    onclick="event.preventDefault();
+                                                                this.closest('form').submit();">
+                                                {{ __('Log Out') }}
+                                            </x-dropdown-link>
+                                            </form>
+                                        </li>
+                                    @else
+                                        <li><a href="{{ route('login') }}">Login</a></li>
+                                        @if (Route::has('register'))
+                                            <li><a href="{{ route('register') }}">Register</a></li>
+                                        @endif
+                                    @endauth
                                 </ul>
                             </div>
                             <div class="header__top__language">
@@ -206,7 +222,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="home__about__pic">
-                        <img src="{{asset('img/home-about/home-about.png')}}" alt="">
+                        <img src="{{asset('assets/img/home-about/home-about.png')}}" alt="">
                     </div>
                 </div>
             </div>
