@@ -379,7 +379,7 @@
         <div class="row cart-head">
             <div class="container" style="padding-bottom: 5rem; padding-top: 2rem;">
                 <div class="nav-header">
-                    <a href="{{ route('website') }}"><img src="{{ url('upload/page/logo.png') }}" alt="" width="100px"
+                    <a href="{{ route('website') }}"><img src="{{ url('upload/page/logo.png') }}" alt=""
                             height="100px"></a>
                     <span> KHÁCH SẠN GALAXYNG</span>
                 </div>

@@ -11,7 +11,7 @@
 
     <!-- Icon -->
     <div class="fadeIn first">
-    <img src="{{url('/font-end/img/login.png')}}" id="icon" alt="User Icon" />
+    <img src="{{url('/font-end/img/logo.png')}}" id="icon" alt="User Icon" />
     <br>
     <span style="color: red">{{isset($error) ? $error : ''}}</span>
     </div>

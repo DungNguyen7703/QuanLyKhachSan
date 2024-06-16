@@ -15,9 +15,10 @@ use Illuminate\Support\Facades\Validator;
 class ChiTietDPConTroller extends Controller
 {
     //
-    public function getDanhSach() {
-        $chitietdp = ChiTietDP::orderBy('id','DESc')->get();
-        $datphong = DatPhong::orderBy('id','DESc')->get();
+    public function getDanhSach()
+    {
+        $chitietdp = ChiTietDP::orderBy('id', 'DESc')->get();
+        $datphong = DatPhong::orderBy('id', 'DESc')->get();
 
         $viewData = [
             'datphong' => $datphong,
@@ -29,15 +30,18 @@ class ChiTietDPConTroller extends Controller
     }
 
 
-    public function getSua($id) {
-        $chitietdp = ChiTietDP::find($id);
+    public function getSua($id)
+    {
+        $chitietdp = ChiTietDP::where('datphong_id', $id)->first();
+        // $chitietdp = ChiTietDP::find($id);
         $loaiphong = LoaiPhong::all();
         $phong = Phong::all();
 
-        return view('admin.chitietdp.sua_ctdp' ,['chitietdp'=>$chitietdp, 'loaiphong'=>$loaiphong, 'phong'=>$phong]);
+        return view('admin.chitietdp.sua_ctdp', ['chitietdp' => $chitietdp, 'loaiphong' => $loaiphong, 'phong' => $phong]);
     }
 
-    public function postSua(Request $request, $id) {
+    public function postSua(Request $request, $id)
+    {
         $chitietdp = new ChiTietDP();
         $chitietdp = ChiTietDP::find($id);
         $kh = KhachHang::find($chitietdp->datphong->kh->id);
@@ -46,7 +50,7 @@ class ChiTietDPConTroller extends Controller
         $data = $request->except('_token');
 
         $messages = [
-    		'Ten_kh.required' => 'Hãy nhập tên',
+            'Ten_kh.required' => 'Hãy nhập tên',
             'SDT.required' => 'Hãy nhập Số điện thoại',
             'Email.required' => 'Hãy nhập Email',
             'Start_date.required' => 'Hãy nhập Ngày Checkin',
@@ -56,7 +60,7 @@ class ChiTietDPConTroller extends Controller
             'Sophong.required' => 'Hãy nhập Số phòng'
         ];
 
-        $validator = Validator::make($data,[
+        $validator = Validator::make($data, [
             'Ten_kh' => 'required',
             'SDT' => 'required',
             'Email' => 'required',
@@ -67,25 +71,25 @@ class ChiTietDPConTroller extends Controller
             'Sophong' => 'required'
         ], $messages);
 
-        if($validator->fails()) {
-    		$errors = $validator->errors();
-    		return redirect()->back()->with('errors', $errors);
-    	} else {
+        if ($validator->fails()) {
+            $errors = $validator->errors();
+            return redirect()->back()->with('errors', $errors);
+        } else {
 
-        $kh->ten_kh             = $request->Ten_kh;
-        $kh->sdt                = $request->SDT;
-        $kh->email              = $request->Email;
-        $datphong->start_date   = $request->Start_date;
-        $datphong->end_date     = $request->End_date;
-        $chitietdp->phong_id    = $request->Phong;
-        $chitietdp->sophong     = $request->Sophong;
-        $chitietdp->chuthich    = $request->Chuthich;
+            $kh->ten_kh = $request->Ten_kh;
+            $kh->sdt = $request->SDT;
+            $kh->email = $request->Email;
+            $datphong->start_date = $request->Start_date;
+            $datphong->end_date = $request->End_date;
+            $chitietdp->phong_id = $request->Phong;
+            $chitietdp->sophong = $request->Sophong;
+            $chitietdp->chuthich = $request->Chuthich;
 
-        $chitietdp->save();
-        $kh->save();
-        $datphong->save();
+            $chitietdp->save();
+            $kh->save();
+            $datphong->save();
 
-        return redirect()->back()->with('thongbao', 'SỬA THÀNH CÔNG');
+            return redirect()->back()->with('thongbao', 'SỬA THÀNH CÔNG');
         }
 
     }

@@ -70,6 +70,12 @@
         <div class="form-group">
             <label for="exampleFormControlSelect1">Phòng</label>
             <select style="width: 400px" class="form-control" id="phong-select" name="Phong">
+                @foreach ($phong as $p)
+                    <option @if (isset($chitietdp->phong->id) and $chitietdp->phong->id == $p->id)
+                        {{ 'selected' }}
+                @endif
+                value="{{ $lp->id }}">{{ $p->tenphong }}</option>
+                @endforeach
             </select>
 
         </div>
