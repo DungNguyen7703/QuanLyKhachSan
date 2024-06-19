@@ -80,22 +80,16 @@
                         <form action="#" autocomplete="off">
                             <div class="a-col alternate" style="margin: auto;">
                                 <i class="fa fa-calendar" style="font-size: 20px; color: white;"></i>
-                                <span style="color: white">CHỌN NGÀY ĐẾN VÀ ĐI: </span>
+                                <span style="color: white">CHỌN NGÀY HẸN XEM CĂN HỘ: </span>
                             </div>
                             <div class="a-col alternate">
                                 <div class="input-field" id="test1">
-                                    <label for="date-start">Check In: </label>
+                                    <label for="date-start">NGÀY HẸN: </label>
                                     <input type="date" class="form-control" id="date-star" name="startdate"
                                         value="{{ date('Y-d-m') }}" onchange="updateDateStart()" />
                                 </div>
                             </div>
-                            <div class="a-col alternate">
-                                <div class="input-field">
-                                    <label for="date-end">Check Out: </label>
-                                    <input type="date" class="form-control" id="date-ed" name="enddate"
-                                        value="{{ date('Y-d-m') }}">
-                                </div>
-                            </div>
+                          
                         </form>
                     </div>
                 </div>
@@ -118,7 +112,7 @@
                                 <th scope="col" class="col-3">Hình ảnh</th>
                                 <th scope="col" class="col-3">Tên Phòng</th>
                                 <th scope="col" class="col-3">Loại Phòng</th>
-                                <th scope="col" class="col-3">Số lượng</th>
+                                
                                 <th scope="col" class="col-3">Giá</th>
                                 <th scope="col" class="col-3"></th>
                             </tr>
@@ -133,18 +127,7 @@
                                                 width="150px" height="100px" alt="Hình ảnh phòng"></td>
                                         <td class="col-3"> {{ $item['phongInfo']->tenphong }}</td>
                                         <td class="col-3"> {{ $item['phongInfo']->loaiphong->tenloaiphong }}</td>
-                                        <td class="col-3">
-                                            <select name="soluong" id="select-{{ $item['phongInfo']->id }}"
-                                                data-idselect="{{ $item['phongInfo']->id }}"
-                                                onchange="updateItemCart({{ $item['phongInfo']->id }})">
-                                                @for ($i = 1; $i <= $item['phongInfo']->soluong; $i++)
-                                                    <option value="{{ $i }}" @if ($i == $item['soluong'])
-                                                        selected
-                                                @endif
-                                                >{{ $i }} phòng</option>
-                                @endfor
-                                </select>
-                                </td>
+                                        
                                 <td class="col-3">{{ number_format($item['phongInfo']->gia) }}</td>
                                 <td class="col-3"><i class="fa fa-remove"
                                         onclick="deleteItemCart({{ $item['phongInfo']->id }})"
