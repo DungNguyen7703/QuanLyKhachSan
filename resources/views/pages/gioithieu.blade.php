@@ -17,9 +17,13 @@
 	<div id="fh5co-services-section">
 		<div class="container">
 			<h1> <p>* GIỚI THIỆU TỔNG QUAN</p></h1>	
-			<p> Khách sạn GALAXYNG là khách sạn 5 sao đẳng cấp quốc tế, tọa lạc tại giao điểm của bốn quận chính. Quý khách chỉ mất 35 phút lái xe từ khách sạn tới sân bay Nội Bài, 8 phút để tới khu trung tâm thương mại và giải trí của thành phố. Với 333 căn hộ tiêu chuẩn và căn hộ hạng sang thiết kế đẹp mắt và trang nhã được chú trọng tới từng chi tiết sẽ đem lại sự tiện nghi và thoải mái tối đa cho quý khách dù là thời gian nghỉ ngơi thư giãn hay trong chuyến công tác. Khách sạn cũng có các tầng không hút thuốc riêng biệt với 6 địa điểm phục vụ nhu cầu ẩm thực của quý khách, đặc biệt là Nhà hàng Hải sản Orientica & Bar và Quán Café Chit Chat. Cơ sở vật chất hiện đại của căn hộ họp và căn hộ hội nghị có sức chứa lên tới 1250 người. Ngoài ra, khách sạn còn có một trung tâm thể thao đẳng cấp thế giới với hồ bơi ngoài trời (quầy bar nổi trên mặt nước), các dịch vụ thể hình, spa và massage.
+			<p> Dự án bất động sản GALAXYNG là một khu phức hợp cao cấp, vị trí đắc địa tại giao điểm của bốn quận chính. Chỉ cách sân bay Nội Bài 35 phút lái xe và 8 phút đến khu trung tâm thương mại và giải trí của thành phố, GALAXYNG hứa hẹn mang đến không gian sống tiện nghi và sang trọng. Dự án gồm 333 căn hộ tiêu chuẩn và căn hộ hạng sang, được thiết kế đẹp mắt và trang nhã đến từng chi tiết, mang đến sự thoải mái tối đa cho cư dân.
 
-            <p>GALAXYNG Hotel với cơ sở vật chất và dịch vụ đẳng cấp thế giới là sự lựa chọn lý tưởng cho quý khách trong những chuyến công tác và kỳ nghỉ khi ghé thăm thành phố sôi động và nhộn nhịp nhất Việt Nam này.</p>				 
+Ngoài ra, GALAXYNG còn có các tiện ích đặc biệt như các căn hộ không hút thuốc, hệ thống nhà hàng và quán cafe phục vụ đa dạng nhu cầu ẩm thực. Cơ sở hạ tầng hiện đại bao gồm căn hộ họp và hội nghị lớn với sức chứa lên đến 1250 người. Dự án cũng sở hữu một trung tâm thể thao đẳng cấp thế giới với hồ bơi ngoài trời và các dịch vụ thể dục, spa và massage.
+
+GALAXYNG là sự lựa chọn hàng đầu cho những ai tìm kiếm không gian sống cao cấp và tiện nghi tại thành phố sôi động và nhộn nhịp nhất Việt Nam.
+
+            				 
              </p>
 		</div>
 	</div>
