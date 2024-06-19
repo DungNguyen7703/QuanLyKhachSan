@@ -379,7 +379,7 @@
         <div class="row cart-head">
             <div class="container" style="padding-bottom: 5rem; padding-top: 2rem;">
                 <div class="nav-header">
-                    <a href="{{ route('website') }}"><img src="{{ url('upload/page/logo.png') }}" alt=""
+                    <a href="{{ route('website') }}"><img src="{{ url('upload/page/logo.png') }}" alt="" width="100px"
                             height="100px"></a>
                     <span> KHÁCH SẠN GALAXYNG</span>
                 </div>
@@ -388,22 +388,14 @@
 
         <div class="panel panel-info">
             <div class="panel-heading" style="color: white; background: #db4118;">
-                Ngày check in, check out:
+                Ngày hẹn:
             </div>
             <div class="panel-body">
                 <div class="form-group">
                     <div class="col-xs-12">
-                        <strong>Check in: </strong>
+                        <strong>Ngày hẹn: </strong>
                         @if (Session::has('std') != null)
                             {{ Session::get('std') }}
-                        @endif
-                    </div>
-                </div>
-                <div class="form-group">
-                    <div class="col-xs-12">
-                        <strong>Check in: </strong>
-                        @if (Session::has('end') != null)
-                            {{ Session::get('end') }}
                         @endif
                     </div>
                 </div>
@@ -418,9 +410,9 @@
                     <!--REVIEW ORDER-->
                     <div class="panel panel-info">
                         <div class="panel-heading" style="color: white; background: #db4118;">
-                            Chi tiết đặt phòng <div class="pull-right"><small><a class="afix-1"
+                            Chi tiết đặt căn hộ <div class="pull-right"><small><a class="afix-1"
                                         href="{{ route('mybooking') }}">Quay lại trang đặt
-                                        phòng</a></small>
+                                        căn hộ</a></small>
                             </div>
                         </div>
                         <div class="panel-body">
@@ -450,12 +442,12 @@
 
                             <div class="form-group">
                                 <div class="col-xs-12">
-                                    <strong>Tổng số phòng:</strong>
+                                    <strong>Tổng số căn hộ:</strong>
                                     <div class="pull-right"><span>
                                             @if (isset(Session::get('Cart')->tongSoluong))
                                                 {{ number_format(Session::get('Cart')->tongSoluong) }}
                                             @endif
-                                        </span><span>phòng</span></div>
+                                        </span><span>căn hộ</span></div>
                                 </div>
                             </div>
                             <div class="form-group">
@@ -527,20 +519,9 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <div class="col-md-12">
-                                    <label for="thanhtoan">Phương thức thanh toán:</label>
-                                    <br>
-                                    <select name="thanhtoan" id="thanhtoan">
-                                        <option value="" disabled selected>Chọn phương thức</option>
-                                        <option value="bank">Thẻ ngân hàng</option>
-                                        <option value="visa">Thẻ visa</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="form-group">
                                 <div class="col-md-6 col-sm-6 col-xs-12">
                                     <button type="submit" class="btn btn-primary btn-submit-fix"
-                                        style="background: #db4118">Đặt phòng </button>
+                                        style="background: #db4118">Đặt lịch </button>
                                 </div>
                             </div>
                         </div>
