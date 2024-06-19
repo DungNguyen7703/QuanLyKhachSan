@@ -1,7 +1,7 @@
 <div class="row">
             <div class="col-md-12">
                 <div class="section text-center">
-                    <h4>DANH SACH CĂN HỘ ĐÃ ĐẶT</h4>
+                    <h4>DANH SÁCH CĂN HỘ ĐÃ ĐẶT</h4>
                 </div>
             </div>
         </div>

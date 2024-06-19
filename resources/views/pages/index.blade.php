@@ -82,12 +82,6 @@
                                 </select>
                             </section>
                         </div>
-                        <div class="a-col alternate">
-                            <div class="input-field">
-                                <label for="date-start">Ngày hẹn: </label>
-                                <input type="text" name="startdate" class="form-control" id="date-start" />
-                            </div>
-                        </div>
                         <div class="a-col action">
                             <a href="javascript:;" onclick="document.getElementById('form1').submit();">
                                 <span>Đặt lịch</span>
