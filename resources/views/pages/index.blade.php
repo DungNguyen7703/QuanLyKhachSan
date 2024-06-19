@@ -10,10 +10,10 @@
                         <div class="col-md-12 col-md-offset-0 text-center slider-text">
                             <div class="slider-text-inner js-fullheight">
                                 <div class="desc">
-                                    <p><span>KHÁCH SẠN GALAXYNG</span></p>
-                                    <h2>Chào mừng bạn đến với khách sạn GALAXYNG</h2>
+                                    <p><span>BẤT ĐỘNG SẢN GALAXYNG</span></p>
+                                    <h2>Chào mừng bạn đến với BĐS GALAXYNG</h2>
                                     <p>
-                                        <a href="{{ route('booking') }}" class="btn btn-primary btn-lg">ĐẶT PHÒNG NGAY</a>
+                                        <a href="{{ route('booking') }}" class="btn btn-primary btn-lg">ĐẶT LỊCH NGAY</a>
                                     </p>
                                 </div>
                             </div>
@@ -30,7 +30,7 @@
                                     <h2>Hãy liên hệ với chúng tôi, để được nhận những dịch vụ và ưu đãi tốt nhất
                                     </h2>
                                     <p>
-                                        <a href="{{ route('booking') }}" class="btn btn-primary btn-lg">ĐẶT PHÒNG NGAY</a>
+                                        <a href="{{ route('booking') }}" class="btn btn-primary btn-lg">ĐẶT LỊCH NGAY</a>
                                     </p>
                                 </div>
                             </div>
@@ -46,7 +46,7 @@
                                     <p><span>VỀ CHÚNG TÔI</span></p>
                                     <h2>Tìm hiểU về chúng tôi để có chúng ta hiểu nhau hơn</h2>
                                     <p>
-                                        <a href="{{ route('booking') }}" class="btn btn-primary btn-lg">ĐẶT PHÒNG NGAY</a>
+                                        <a href="{{ route('booking') }}" class="btn btn-primary btn-lg">ĐẶT LỊCH NGAY</a>
                                     </p>
                                 </div>
                             </div>
@@ -67,7 +67,7 @@
                                 <select class="form-control" id="select-loai-phong" name="loaiphong"
                                     style="color: #db4118; font-weight: 16px; font-weight: 700;"
                                     onchange="changeLoaiPhong(this.value)">
-                                    <option value="" disabled selected>Chọn loại phòng</option>
+                                    <option value="" disabled selected>Chọn loại căn hộ</option>
                                     @foreach ($loaiphong as $lp)
                                         <option value="{{ $lp->id }}">{{ $lp->tenloaiphong }}</option>
                                     @endforeach
@@ -78,25 +78,19 @@
                             <section>
                                 <select class="form-control" id="select-phong" name="phong"
                                     style="color: #db4118; font-weight: 16px; font-weight: 700;">
-                                    <option value="" disabled selected>Chọn phòng</option>
+                                    <option value="" disabled selected>Chọn căn hộ</option>
                                 </select>
                             </section>
                         </div>
                         <div class="a-col alternate">
                             <div class="input-field">
-                                <label for="date-start">Check In: </label>
+                                <label for="date-start">Ngày hẹn: </label>
                                 <input type="text" name="startdate" class="form-control" id="date-start" />
-                            </div>
-                        </div>
-                        <div class="a-col alternate">
-                            <div class="input-field">
-                                <label for="date-end">Check Out: </label>
-                                <input type="text" name="enddate" class="form-control" id="date-end" />
                             </div>
                         </div>
                         <div class="a-col action">
                             <a href="javascript:;" onclick="document.getElementById('form1').submit();">
-                                <span>Đặt phòng</span>
+                                <span>Đặt lịch</span>
                                 Ngay bây giờ
                             </a>
                         </div>
@@ -118,7 +112,7 @@
                 <div class="col-md-3 text-center">
                     <span class="fh5co-counter js-counter" data-from="0" data-to="155" data-speed="5"
                         data-refresh-interval="50"></span>
-                    <span class="fh5co-counter-label">Phòng</span>
+                    <span class="fh5co-counter-label">Căn hộ</span>
                 </div>
                 <div class="col-md-3 text-center">
                     <span class="fh5co-counter js-counter" data-from="0" data-to="820" data-speed="5"
@@ -139,7 +133,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-title text-center">
-                        <h2>DANH SÁCH PHÒNG</h2>
+                        <h2>DANH SÁCH CĂN HỘ</h2>
                     </div>
                 </div>
             </div>
@@ -157,7 +151,7 @@
                             <h4><i>{{ $p1->loaiphong->tenloaiphong }}</i></h4>
                             <p>{{ $p1->chuthich }}</p>
                             <p><a href="{{ route('cart.addCart', ['id' => $p1->id]) }}"
-                                    class="btn btn-primary btn-luxe-primary">Book Now <i class="ti-angle-right"></i></a></p>
+                                    class="btn btn-primary btn-luxe-primary">LIÊN HỆ <i class="ti-angle-right"></i></a></p>
                         </div>
                     </div>
                 @endforeach
@@ -175,7 +169,7 @@
                                 <h4><i>{{ $p2->loaiphong->tenloaiphong }}</i></h4>
                                 <p>{{ $p2->chuthich }}</p>
                                 <p><a href="{{ route('cart.addCart', ['id' => $p2->id]) }}"
-                                        class="btn btn-primary btn-luxe-primary">Book Now <i class="ti-angle-right"></i></a>
+                                        class="btn btn-primary btn-luxe-primary">LIÊN HỆ <i class="ti-angle-right"></i></a>
                                 </p>
                             </div>
                         </div>
@@ -195,7 +189,7 @@
                                 <h4><i>{{ $p3->loaiphong->tenloaiphong }}</i></h4>
                                 <p>{{ $p3->chuthich }}</p>
                                 <p><a href="{{ route('cart.addCart', ['id' => $p3->id]) }}"
-                                        class="btn btn-primary btn-luxe-primary">Book Now <i class="ti-angle-right"></i></a>
+                                        class="btn btn-primary btn-luxe-primary">LIÊN HỆ <i class="ti-angle-right"></i></a>
                                 </p>
                             </div>
                         </div>
@@ -219,7 +213,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-title text-center">
-                        <h2>DỊCH VỤ KHÁCH SẠN</h2>
+                        <h2>DỊCH VỤ CĂN HỘ</h2>
                     </div>
                 </div>
             </div>
@@ -236,7 +230,7 @@
                     </a>
                     <a href="#" data-tab="tab3">
                         <i class="flaticon-car icon"></i>
-                        <span>ĐƯA ĐÓN</span>
+                        <span>BÃI ĐỖ XE</span>
                     </a>
                     <a href="#" data-tab="tab4">
                         <i class="flaticon-swimming icon"></i>
@@ -311,16 +305,14 @@
                                 </div>
                                 <div class="col-md-6">
                                     <span class="super-heading-sm">Đẳng cấp thể giới</span>
-                                    <h3 class="heading">ĐƯA ĐÓN</h3>
-                                    <p>Khách sạn GALAXYNG cung cấp một đội xe cao cấp trong suốt thời gian Quý khách
-                                        lưu trú tại Hà Nội, bao gồm đưa đón tại sân bay quốc tế Nội Bài, phương
-                                        tiện vận chuyển hàng ngày.</p>
-                                    <p>Sử dụng dịch vụ đưa đón khách tại sân bay của chúng tôi để tránh mọi lừa
-                                        đảo có thể xảy ra dọc đường từ sân bay đến khách sạn với mức giá hợp lý.
+                                    <h3 class="heading">Bãi đỗ xe</h3>
+                                    <p>GALAXYNG cung cấp một bãi đỗ xe cao cấp </p>
+                                    <p>Sử dụng dịch vụ bãi đỗ xe của chúng tôi để tránh mọi lừa
+                                        đảo có thể xảy ra.
                                     </p>
                                     <p class="service-hour">
                                         <span>Giở mở cửa</span>
-                                        <strong>7:30 AM - 8:00 PM</strong>
+                                        <strong>24/7</strong>
                                     </p>
                                 </div>
                             </div>
@@ -387,10 +379,10 @@
                                 <div class="col-md-6">
                                     <span class="super-heading-sm">Đẳng cấp thể giới</span>
                                     <h3 class="heading">Gym</h3>
-                                    <p>GALAXYNG Gym - Một cái tên không thể bỏ qua khi nhắc tới những phòng tập gym
+                                    <p>GALAXYNG Gym - Một cái tên không thể bỏ qua khi nhắc tới những căn hộ tập gym
                                         cao cấp Hà Nội. Với câu slogan độc đáo: “Hãy để Fitness World biến những
-                                        giọt mồ của bạn không còn lãng phí trên phòng tập”, GALAXYNG Gym đã và đang
-                                        làm được điều đó. Với quy mô rộng lớn, phòng tập được trang bị đầy đủ từ
+                                        giọt mồ của bạn không còn lãng phí trên căn hộ tập”, GALAXYNG Gym đã và đang
+                                        làm được điều đó. Với quy mô rộng lớn, căn hộ tập được trang bị đầy đủ từ
                                         cơ sở vật chất, dụng cụ tập luyện. Máy móc đều được nhập khẩu từ Mỹ theo
                                         tiêu chuẩn 5 sao.</p>
                                     <p>Các hội viên khi tới đây luyện tập, đều được tư vấn kỹ lưỡng về thực đơn,
@@ -415,7 +407,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-title text-center">
-                        <h2>Phản hổi người dùng...</h2>
+                        <h2>Phản hổi cư dân</h2>
                     </div>
                 </div>
             </div>
@@ -423,7 +415,7 @@
                 <div class="col-md-4">
                     <div class="testimony">
                         <blockquote>
-                            &ldquo;Dịch vụ thật tốt, tôi sẽ quay lại đây không chỉ 1, mà nhiều lần nữa!&rdquo;
+                            &ldquo;Căn hộ của tôi thật sự là một không gian sống lý tưởng, vừa tiện nghi vừa hiện đại!&rdquo;
                         </blockquote>
                         <p class="author"><cite>Anh Long</cite></p>
                     </div>
@@ -431,7 +423,7 @@
                 <div class="col-md-4">
                     <div class="testimony">
                         <blockquote>
-                            &ldquo;Một kì nghỉ thật vui vẻ. Nhân viên ở đây thật thân thiện...&rdquo;
+                            &ldquo;Tôi rất hài lòng với căn hộ, mọi thứ đều gọn gàng và phù hợp với nhu cầu hàng ngày của gia đình&rdquo;
                         </blockquote>
                         <p class="author"><cite>Chị Hương</cite></p>
                     </div>
@@ -439,7 +431,7 @@
                 <div class="col-md-4">
                     <div class="testimony">
                         <blockquote>
-                            &ldquo;Gia đình tôi đã có những giây phút đầm ấm với nhau tại GALAXYNG&rdquo;
+                            &ldquo;Căn hộ mang đến sự thoải mái và tiện lợi, đúng như những gì tôi mong đợi từ một không gian sống hiện đại&rdquo;
                         </blockquote>
                         <p class="author"><cite>Cô Giang</cite></p>
                     </div>
