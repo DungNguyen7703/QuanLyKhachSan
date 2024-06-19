@@ -113,7 +113,7 @@
                                     <h2>Lối tắt</h2>
                                     <ul class="link">
                                         <li><a href="{{ route('website') }}">Trang chủ</a></li>
-                                        <li><a href="{{ route('booking') }}">Đặt phòng</a></li>
+                                        <li><a href="{{ route('booking') }}">Đặt lịch</a></li>
                                         <li><a href="{{ route('lienhe') }}">Liên hệ</a></li>
                                         <li><a href="{{ route('gioithieu') }}">Giới thiệu</a></li>
                                         <li><a href="{{ route('admin.dangnhap') }}">Đăng nhập</a></li>
