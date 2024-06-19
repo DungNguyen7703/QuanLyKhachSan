@@ -15,7 +15,7 @@ class SlideTable extends Migration
     {
         //
         Schema::create('slide', function (Blueprint $table) {
-            $table->bigIncrements('id');
+            $table->increments('id');
             $table->string('ten');
             $table->string('hinh');
             $table->string('noidung');

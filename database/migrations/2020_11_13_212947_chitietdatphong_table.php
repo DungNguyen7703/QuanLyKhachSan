@@ -15,10 +15,10 @@ class ChitietdatphongTable extends Migration
     {
         //
         Schema::create('chitietdp', function (Blueprint $table) {
-            $table->bigIncrements('id');
-            $table->bigInteger('datphong_id')->unsigned();
-            $table->bigInteger('loaiphong_id')->unsigned();
-            $table->bigInteger('sophong')->default(0);
+            $table->increments('id');
+            $table->integer('datphong_id')->unsigned();
+            $table->integer('loaiphong_id')->unsigned();
+            $table->integer('sophong')->default(0);
             $table->string('tenphong');
             $table->string('tenloaiphong');
             $table->timestamps();

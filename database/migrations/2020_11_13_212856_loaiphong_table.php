@@ -15,9 +15,9 @@ class LoaiphongTable extends Migration
     {
         //
         Schema::create('loaiphong', function (Blueprint $table) {
-            $table->bigIncrements('id');
+            $table->increments('id');
             $table->string('tenloaiphong');
-            $table->bigInteger('user_id')->unsigned();
+            $table->integer('user_id')->unsigned();
             $table->timestamps();
         });
     }

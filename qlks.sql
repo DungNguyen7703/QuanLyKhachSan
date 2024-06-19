@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 19, 2024 at 11:29 AM
+-- Generation Time: Jun 19, 2024 at 01:16 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -57,7 +57,8 @@ INSERT INTO `chitietdp` (`id`, `datphong_id`, `phong_id`, `sophong`, `gia`, `chu
 (16, 18, 1, 4, 1500000, NULL, '2021-01-06 00:26:36', '2021-01-06 00:26:36'),
 (17, 19, 21, 3, 9786490, NULL, '2021-01-06 00:50:38', '2021-01-06 00:50:38'),
 (18, 20, 2, 1, 3000000, NULL, '2023-12-20 21:09:41', '2023-12-20 21:09:41'),
-(19, 21, 8, 1, 8000000000, NULL, '2024-06-18 10:14:13', '2024-06-18 10:14:13');
+(19, 21, 8, 1, 8000000000, NULL, '2024-06-18 10:14:13', '2024-06-18 10:14:13'),
+(20, 22, 1, 1, 15000000000, NULL, '2024-06-19 03:06:04', '2024-06-19 03:06:04');
 
 -- --------------------------------------------------------
 
@@ -93,7 +94,8 @@ INSERT INTO `datphong` (`id`, `khachhang_id`, `user_id`, `ngaydat`, `tongsophong
 (18, 23, NULL, '2021-01-06', 4, 6000000, NULL, NULL, NULL, '2021-01-06 00:26:36', '2021-01-06 00:26:36'),
 (19, 24, NULL, '2021-01-06', 3, 29359500, '2021-06-01', '2021-06-01', '12356', '2021-01-06 00:50:38', '2021-01-06 00:50:38'),
 (20, 25, NULL, '2023-12-21', 1, 3000000, '2023-12-14', '2023-12-22', '0123456789', '2023-12-20 21:09:41', '2023-12-20 21:09:41'),
-(21, 26, NULL, '2024-06-18', 1, 8000000000, '2024-06-20', NULL, NULL, '2024-06-18 10:14:13', '2024-06-18 10:14:13');
+(21, 26, NULL, '2024-06-18', 1, 8000000000, '2024-06-20', NULL, NULL, '2024-06-18 10:14:13', '2024-06-18 10:14:13'),
+(22, 27, NULL, '2024-06-19', 1, 15000000000, '2024-06-26', NULL, NULL, '2024-06-19 03:06:04', '2024-06-19 03:06:04');
 
 -- --------------------------------------------------------
 
@@ -141,7 +143,8 @@ INSERT INTO `kh` (`id`, `ten_kh`, `sdt`, `email`, `diachi`, `created_at`, `updat
 (23, 'Trần Duy', '0378208439', 'tranduy@gmail.com', 'Hà Nội', '2021-01-06 00:26:35', '2021-01-06 00:26:35'),
 (24, 'Nguyễn Tiến Anh', '1234567', 'anhtien@gmail.com', '123467', '2021-01-06 00:50:38', '2021-01-06 00:50:38'),
 (25, 'Nguyễn Tiến Anh', '0123456789', 'romcoca251100@gmail.com', '0123456789', '2023-12-20 21:09:40', '2023-12-20 21:09:40'),
-(26, 'Nguyen Gia Bao', '0866088827', 'giabarnguuyen@gmai.com', 'Trung Văn', '2024-06-18 10:14:13', '2024-06-18 10:14:13');
+(26, 'Nguyen Gia Bao', '0866088827', 'giabarnguuyen@gmai.com', 'Trung Văn', '2024-06-18 10:14:13', '2024-06-18 10:14:13'),
+(27, 'Nguyen Gia Bao', '0849488268', 'giabarnguyen2@gmail.com', 'trbdfb  retgebfd', '2024-06-19 03:06:04', '2024-06-19 03:06:04');
 
 -- --------------------------------------------------------
 
@@ -267,13 +270,13 @@ CREATE TABLE `phong` (
 --
 
 INSERT INTO `phong` (`id`, `loaiphong_id`, `tenphong`, `chuthich`, `hinhanh`, `user_id`, `soluong`, `gia`, `slug`, `booked`, `created_at`, `updated_at`) VALUES
-(1, 1, 'Căn hộ Studio Cao cấp', 'Căn hộ studio là lựa chọn lý tưởng cho người yêu thích sự tiện nghi và hiện đại. Với thiết kế mở, tích hợp không gian sống, ngủ và bếp, căn hộ mang lại cảm giác thông thoáng, gọn gàng và tiện lợi.', 'zjKkf_DwCpm_image_2024-06-19_161012138.png', 1, 1, 15000000000, 'can-ho-studio-cao-cap', 4, NULL, '2024-06-19 02:18:36'),
-(2, 3, 'Căn Hộ Luxury', 'Căn hộ có các phòng: phòng khách, phòng ngủ, bếp và phòng tắm. Với thiết kế tiện nghi và hiện đại, căn hộ đáp ứng nhu cầu sinh hoạt hàng ngày, mang lại không gian sống thoải mái và tiện lợi.', 'LtMAw_CpoyF_image_2024-06-19_162129430.png', 1, 9, 20000000000, 'can-ho-luxury', 1, NULL, '2024-06-19 02:21:30'),
-(3, 1, 'Căn hộ Studio Trung Cấp', 'Căn hộ studio là lựa chọn lý tưởng cho người yêu thích sự tiện nghi và hiện đại. Với thiết kế mở, tích hợp không gian sống, ngủ và bếp, căn hộ mang lại cảm giác thông thoáng, gọn gàng và tiện lợi.', '0u62D_CbNEU_z5535733841530_d3af89e33c87674f2733ed25613e1322.jpg', 1, 10, 10000000000, 'can-ho-studio-trung-cap', 0, '2020-11-20 11:30:26', '2024-06-19 02:18:42'),
-(4, 2, 'Căn Hộ Cá Nhân', 'Căn hộ có các phòng: phòng khách, phòng ngủ, bếp và phòng tắm. Với thiết kế tiện nghi và hiện đại, căn hộ đáp ứng nhu cầu sinh hoạt hàng ngày, mang lại không gian sống thoải mái và tiện lợi.', '5JHCW_MTChv_image_2024-06-19_161407571.png', 1, 5, 3000000000, 'can-ho-ca-nhan', 0, '2020-11-20 12:47:31', '2024-06-19 02:20:45'),
-(5, 1, 'Căn Hộ Studio cá nhân', 'Căn hộ studio là lựa chọn lý tưởng cho người yêu thích sự tiện nghi và hiện đại. Với thiết kế mở, tích hợp không gian sống, ngủ và bếp, căn hộ mang lại cảm giác thông thoáng, gọn gàng và tiện lợi.', '6YATt_VPhUb_image_2024-06-19_161433327.png', 1, 12, 5000000000, 'can-ho-studio-ca-nhan', 0, '2020-11-20 13:12:50', '2024-06-19 02:18:49'),
-(6, 2, 'Căn Hộ Gia Đình', 'Căn hộ có các phòng: phòng khách, phòng ngủ, bếp và phòng tắm. Với thiết kế tiện nghi và hiện đại, căn hộ đáp ứng nhu cầu sinh hoạt hàng ngày, mang lại không gian sống thoải mái và tiện lợi.', 'xl1Fx_ykV1r_image_2024-06-19_161320968.png', 1, 10, 5000000000, 'can-ho-gia-dinh', 0, '2020-12-22 11:45:11', '2024-06-19 02:20:53'),
-(7, 4, 'Căn hộ Penthouse', 'Căn hộ penthouse là biểu tượng của sự sang trọng và đẳng cấp. Nằm ở tầng trên cùng, nó có tầm nhìn tuyệt đẹp, thiết kế rộng rãi và nội thất cao cấp.', 'tNpbj_ky2FQ_image_2024-06-19_161215448.png', 1, 8, 30000000000, 'can-ho-penthouse', 3, '2020-12-22 11:45:47', '2024-06-19 02:22:17'),
+(1, 1, 'Căn hộ Studio Cao cấp', 'Căn hộ studio là lựa chọn lý tưởng cho người yêu thích sự tiện nghi và hiện đại. Với thiết kế mở, tích hợp không gian sống, ngủ và bếp, căn hộ mang lại cảm giác thông thoáng, gọn gàng và tiện lợi.', 'yFMPL_B0iHP_thoi-hon-vao-can-ho-nho-mang-dam-dau-an-ca-nhan-va-may-mai-nen-be-tong-tien-dung_1667538225.jpg', 1, 0, 15000000000, 'can-ho-studio-cao-cap', 5, NULL, '2024-06-19 04:13:29'),
+(2, 3, 'Căn Hộ Luxury', 'Căn hộ có các phòng: phòng khách, phòng ngủ, bếp và phòng tắm. Với thiết kế tiện nghi và hiện đại, căn hộ đáp ứng nhu cầu sinh hoạt hàng ngày, mang lại không gian sống thoải mái và tiện lợi.', 'Sn1Da_uDycA_chung-cu-feliz-homes-1-1-1024x564.jpg', 1, 9, 20000000000, 'can-ho-luxury', 1, NULL, '2024-06-19 04:13:11'),
+(3, 1, 'Căn hộ Studio Trung Cấp', 'Căn hộ studio là lựa chọn lý tưởng cho người yêu thích sự tiện nghi và hiện đại. Với thiết kế mở, tích hợp không gian sống, ngủ và bếp, căn hộ mang lại cảm giác thông thoáng, gọn gàng và tiện lợi.', 'qzFfM_q6Ugg_Căn-hộ-studio-không-có-sự-ngăn-chia-các-phòng-scaled.jpg', 1, 10, 10000000000, 'can-ho-studio-trung-cap', 0, '2020-11-20 11:30:26', '2024-06-19 04:15:50'),
+(4, 2, 'Căn Hộ Cá Nhân', 'Căn hộ có các phòng: phòng khách, phòng ngủ, bếp và phòng tắm. Với thiết kế tiện nghi và hiện đại, căn hộ đáp ứng nhu cầu sinh hoạt hàng ngày, mang lại không gian sống thoải mái và tiện lợi.', '0Ye4d_02hrq_img_20230515151055.png', 1, 5, 3000000000, 'can-ho-ca-nhan', 0, '2020-11-20 12:47:31', '2024-06-19 04:14:51'),
+(5, 1, 'Căn Hộ Studio cá nhân', 'Căn hộ studio là lựa chọn lý tưởng cho người yêu thích sự tiện nghi và hiện đại. Với thiết kế mở, tích hợp không gian sống, ngủ và bếp, căn hộ mang lại cảm giác thông thoáng, gọn gàng và tiện lợi.', 'KlVdi_pMxCh_201912140758209442248-6a91.jpg', 1, 12, 5000000000, 'can-ho-studio-ca-nhan', 0, '2020-11-20 13:12:50', '2024-06-19 04:14:29'),
+(6, 2, 'Căn Hộ Gia Đình', 'Căn hộ có các phòng: phòng khách, phòng ngủ, bếp và phòng tắm. Với thiết kế tiện nghi và hiện đại, căn hộ đáp ứng nhu cầu sinh hoạt hàng ngày, mang lại không gian sống thoải mái và tiện lợi.', 'HdJUQ_loBCC_co-hoi-so-huu-can-ho-2-phong-ngu-cho-gia-dinh-tre-o-ha-noi-1.jpg', 1, 10, 5000000000, 'can-ho-gia-dinh', 0, '2020-12-22 11:45:11', '2024-06-19 04:13:41'),
+(7, 4, 'Căn hộ Penthouse', 'Căn hộ penthouse là biểu tượng của sự sang trọng và đẳng cấp. Nằm ở tầng trên cùng, nó có tầm nhìn tuyệt đẹp, thiết kế rộng rãi và nội thất cao cấp.', 'nwR3r_OWJUR_hinh-anh-penthouses-la-gi-tim-hieu-uu-nhuoc-diem-cua-can-ho-penthouses-so-4.jpg', 1, 8, 30000000000, 'can-ho-penthouse', 3, '2020-12-22 11:45:47', '2024-06-19 04:13:51'),
 (8, 2, 'Căn Hộ Cao Cấp', 'Căn hộ có các phòng: phòng khách, phòng ngủ, bếp và phòng tắm. Với thiết kế tiện nghi và hiện đại, căn hộ đáp ứng nhu cầu sinh hoạt hàng ngày, mang lại không gian sống thoải mái và tiện lợi.', 'YqaTJ_FQdzG_triple2.jpg', 1, 4, 8000000000, 'can-ho-cao-cap', 1, '2021-01-01 11:52:12', '2024-06-19 02:21:00');
 
 -- --------------------------------------------------------
@@ -450,13 +453,13 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `chitietdp`
 --
 ALTER TABLE `chitietdp`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
 
 --
 -- AUTO_INCREMENT for table `datphong`
 --
 ALTER TABLE `datphong`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
 
 --
 -- AUTO_INCREMENT for table `failed_jobs`
@@ -468,7 +471,7 @@ ALTER TABLE `failed_jobs`
 -- AUTO_INCREMENT for table `kh`
 --
 ALTER TABLE `kh`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=28;
 
 --
 -- AUTO_INCREMENT for table `loaiphong`

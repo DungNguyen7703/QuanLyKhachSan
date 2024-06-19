@@ -15,13 +15,13 @@ class PhongTable extends Migration
     {
         //
         Schema::create('phong', function (Blueprint $table) {
-            $table->bigIncrements('id');
-            $table->bigInteger('loaiphong_id')->unsigned();
+            $table->increments('id');
+            $table->integer('loaiphong_id')->unsigned();
             $table->string('tenphong');
             $table->boolean('trangthai')->nullable();
             $table->text('chuthich')->nullable();
-            $table->bigInteger('user_id')->unsigned();
-            $table->bigInteger('soluong')->default(0);
+            $table->integer('user_id')->unsigned();
+            $table->integer('soluong')->default(0);
             $table->timestamps();
         });
     }

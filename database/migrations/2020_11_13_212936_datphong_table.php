@@ -15,9 +15,9 @@ class DatphongTable extends Migration
     {
         //
         Schema::create('datphong', function (Blueprint $table) {
-            $table->bigIncrements('id');
-            $table->bigInteger('khachhang_id')->unsigned();
-            $table->bigInteger('user_id')->unsigned();
+            $table->increments('id');
+            $table->integer('khachhang_id')->unsigned();
+            $table->integer('user_id')->unsigned();
             $table->timestamps();
         });
     }
