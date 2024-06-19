@@ -8547,10 +8547,10 @@ div.cs-select span {
   color: rgba(255, 255, 255, 0.5);
 }
 #fh5co-hotel-section .hotel-content .hotel-grid > div {
-  width: 110px;
+  width: 150px;
   position: absolute;
   top: 0;
-  left: -110px;
+  left: -150px;
   padding: 10px;
   background: #ff5722;
   color: #fff;
@@ -9234,4 +9234,7 @@ input[type="text"] {
   background: url(../images/hourglass.svg) center no-repeat #222222;
 }
 
+div.a-col {
+  margin: 0 19px;
+}
 /*# sourceMappingURL=style.css.map */
