@@ -1,7 +1,7 @@
 <div class="row">
             <div class="col-md-12">
                 <div class="section text-center">
-                    <h4>DANH SACH PHÒNG ĐÃ ĐẶT</h4>
+                    <h4>DANH SACH CĂN HỘ ĐÃ ĐẶT</h4>
                 </div>
             </div>
         </div>
@@ -11,11 +11,10 @@
             <thead>
                 <tr>
                     <th scope="col">Hình ảnh</th>
-                    <th scope="col">Tên Phòng</th>
-                    <th scope="col">Loại Phòng</th>
-                    <th scope="col">Số lượng</th>
+                    <th scope="col">Tên căn hộ</th>
+                    <th scope="col">Loại căn hộ</th>
                     <th scope="col">Giá</th>
-                    <th scope="col"></th>
+                    
                 </tr>
             </thead>
             @if (Session::has('Cart') != null)
@@ -23,20 +22,10 @@
                     @foreach (Session::get('Cart')->phong as $item)
                         <tr>
                             <td> <img src="{{ url('/upload/phong/' . $item['phongInfo']->hinhanh) }}" width="150px"
-                                    height="100px" alt="Hình ảnh phòng"></td>
+                                    height="100px" alt="Hình ảnh căn hộ"></td>
                             <td> {{ $item['phongInfo']->tenphong }}</td>
                             <td> {{ $item['phongInfo']->loaiphong->tenloaiphong }}</td>
-                            <td>
-                                <select name="soluong" id="select-{{$item['phongInfo']->id}}" 
-                                    data-idselect="{{ $item['phongInfo']->id }}" onchange="updateItemCart({{ $item['phongInfo']->id }})">
-                                    @for ($i = 1; $i <= $item['phongInfo']->soluong; $i++)
-                                        <option value="{{ $i }}" @if ($i == $item['soluong'])
-                                            selected
-                                    @endif
-                                    >{{ $i }} phòng</option>
-                    @endfor
-                    </select>
-                    </td>
+                            
 
                     <td>{{ number_format($item['phongInfo']->gia) }}</td>
                     <td class="delete"><i class="fa fa-remove"
@@ -49,7 +38,7 @@
             <tbody>
                 <tr>
                     <th colspan="7">
-                        Bạn chưa đặt phòng nào!
+                        Bạn chưa đặt căn hộ nào!
                     </th>
                 </tr>
             </tbody>
@@ -59,13 +48,6 @@
     <div class="total" id="list-cart">
         <ul class="list-group">
             <li class="list-group-item active">THANH TOÁN</li>
-            <li class="list-group-item">Tổng số lượng:
-                @if (isset(Session::get('Cart')->tongSoluong))
-                    {{ number_format(Session::get('Cart')->tongSoluong) }} phòng
-                @else
-                    0 phòng
-                @endif
-            </li>
             <li class="list-group-item">Tổng tiền:
                 @if (isset(Session::get('Cart')->tongGia))
                     {{ number_format(Session::get('Cart')->tongGia) }} VNĐ
