@@ -79,7 +79,6 @@ class CartConTroller extends Controller
             $request->session()->put('Cart', $newCart);
         }
         $request->Session()->put('std', $request->startdate);
-        $request->Session()->put('end', $request->enddate);
 
         return redirect()->route('mybooking');
     }
@@ -89,14 +88,6 @@ class CartConTroller extends Controller
         $request->Session()->put('std', $request->startdate);
         return redirect()->route('test')->with('a', $a);
 
-    }
-
-     public function updateDateEnd(Request $request, $end) {
-        $oldDate = Session('Date') ? Session('Date') : null;
-        $newDate = new Date($oldDate);
-        $newDate->updateEnd($end);
-        $request->Session()->put('Date', $end);
-        return;
     }
 
 
