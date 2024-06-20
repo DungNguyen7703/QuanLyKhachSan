@@ -65,7 +65,7 @@
                 <div
                     class="col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center fh5co-table">
                     <div class="fh5co-intro fh5co-table-cell">
-                        <h1 class="text-center">DANH SÁCH ĐẶT PHÒNG CỦA BẠN</h1>
+                        <h1 class="text-center">DANH SÁCH CĂN HỘ CỦA BẠN</h1>
                         <p>Cảm ơn bạn đã tin tưởng đồng hành cùng chúng tôi.</p>
                     </div>
                 </div>
@@ -100,7 +100,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="section text-center">
-                        <h4>DANH SACH PHÒNG ĐÃ ĐẶT</h4>
+                        <h4>DANH SÁCH CĂN HỘ ĐÃ HẸN</h4>
                     </div>
                 </div>
             </div>
@@ -124,7 +124,7 @@
                                     <tr>
                                         <td class="col-3"> <img
                                                 src="{{ url('/upload/phong/' . $item['phongInfo']->hinhanh) }}"
-                                                width="150px" height="100px" alt="Hình ảnh phòng"></td>
+                                                width="150px" height="100px" alt="Hình ảnh căn hộ"></td>
                                         <td class="col-3"> {{ $item['phongInfo']->tenphong }}</td>
                                         <td class="col-3"> {{ $item['phongInfo']->loaiphong->tenloaiphong }}</td>
                                         
@@ -138,7 +138,7 @@
                         @else
                             <tr>
                                 <th colspan="7">
-                                    Bạn chưa đặt phòng nào!
+                                    Bạn chưa liên hệ căn hộ nào!
                                 </th>
                             </tr>
                             @endif
@@ -147,12 +147,11 @@
                 </div>
                 <div class="total" id="list-cart">
                     <ul class="list-group">
-                        <li class="list-group-item active">THANH TOÁN</li>
                         <li class="list-group-item">Tổng số lượng:
                             @if (isset(Session::get('Cart')->tongSoluong))
-                                {{ number_format(Session::get('Cart')->tongSoluong) }} phòng
+                                {{ number_format(Session::get('Cart')->tongSoluong) }} căn hộ
                             @else
-                                0 phòng
+                                0 căn hộ
                             @endif
                         </li>
                         <li class="list-group-item">Tổng tiền:
@@ -177,7 +176,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="section text-center">
-                    <a href="{{ route('booking') }}" class="btn btn-primary btn-lg">XEM DANH SÁCH CÁC PHÒNG</a>
+                    <a href="{{ route('booking') }}" class="btn btn-primary btn-lg">XEM DANH SÁCH CÁC CĂN HỘ</a>
                 </div>
             </div>
         </div>
