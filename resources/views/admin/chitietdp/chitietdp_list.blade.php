@@ -3,7 +3,7 @@
 @section('content')
     <div class="row">
         <div class="col-lg-12">
-            <h1 class="page-header">Đặt phòng</h1>
+            <h1 class="page-header">Khách xem phòng</h1>
         </div>
     </div>
 
@@ -15,20 +15,19 @@
     @endif
     <div class="panel panel-default">
         <div class="panel-heading">
-            Danh sách đặt phòng
+            Danh sách khách xem phòng
         </div>
         <div class="panel-body">
             <div class="table-responsive">
                 <table class="table table-striped table-bordered table-hover dataTable no-footer" id="dtBasicExample">
                     <thead>
                         <tr>
-                            <th>Mã đặt phòng</th>
+                            <th>Mã xem phòng</th>
                             <th>Người đặt</th>
                             <th>Số điện thoại</th>
                             <th>Email</th>
                             <th>Địa chỉ</th>
-                            <th>Ngày đặt</th>
-                            <th>Tổng tiền</th>
+                            <th>Ngày xem</th>
                             <th>Chức năng</th>
                         </tr>
                     </thead>
@@ -47,7 +46,7 @@
                                     <td>{{ $item->kh->email }}</td>
                                     <td>{{ $item->kh->diachi }}</td>
                                     <td>{{ $item->ngaydat }}</td>
-                                    <td>{{ number_format($item->tongtien) }} VNĐ</td>
+
 
                                     <th><a href="{{ route('admin.chitietdp.getSua', ['id' => $item->id]) }}">Sửa</a>
                                         <!-- Trigger the modal with a button -->

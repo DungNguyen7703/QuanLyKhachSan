@@ -72,7 +72,7 @@
                         </li>
                         <li>
                             <a href="{{ route('admin.chitietdp.danhsach') }}" class=""><i class="fa fa-list fa-fw"></i>
-                                Danh sách khách đặt phòng</a>
+                                Danh sách khách xem phòng</a>
                         </li>
                         @if ((Auth::check() && Auth::user()->role_id == 1) || Auth::user()->role_id == 2)
                             <li>
@@ -102,10 +102,6 @@
                         @endif
 
                         @if (Auth::check() && Auth::user()->role_id == 1)
-                            <li>
-                                <a href="{{ route('admin.slide.danhsach') }}" class=""><i
-                                        class="fa fa-file-o fa-fw"></i> Slide</a>
-                            </li>
                             <li>
                                 <a href="{{ route('admin.user.danhsach') }}"><i class="fa fa-files-o fa-fw"></i>
                                     User</a>
