@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\LienheController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -147,3 +147,4 @@ Route::group(['prefix' => 'ajax'], function () {
     Route::get('booking/loaiphong/{id}', [\App\Http\Controllers\AjaxConTroller::class, 'getBookingLoaiPhong'])->name('ajax.getBookingLoaiPhong');
 });
 
+Route::post('/submit-form', [LienheController::class, 'store'])->name('submit.form');

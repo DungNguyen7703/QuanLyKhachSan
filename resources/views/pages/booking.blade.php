@@ -93,26 +93,7 @@
 @section('script')
 
     <script>
-        function deleteItemCart(id) {
-            $.ajax({
-                url: 'cart/delete-cart/' + id,
-                type: 'GET',
-            }).done(function(response) {
-                $("#content-booking").empty();
-                $("#content-booking").html(response);
-            })
-        }
-
-        function updateItemCart(id) {
-            var value = $("#select-" + id).val();
-            $.ajax({
-                url: 'cart/update-cart/' + id + '/' + value,
-                type: 'GET',
-            }).done(function(response) {
-                $("#content-booking").empty();
-                $("#content-booking").html(response);
-            })
-        }
+   
 
         function changeLoaiPhong(id) {
             $.ajax({

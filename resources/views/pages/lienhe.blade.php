@@ -58,21 +58,22 @@
                 </div>
                 <div class="col-md-12">
                     <div class="row">
-                        <form action="" method="">
+                        <form action="{{ route('submit.form') }}" method="Post">
+                            @csrf
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Họ và tên">
+                                    <input type="text" name="name" class="form-control" placeholder="Họ và tên">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="Địa chỉ Email">
+                                    <input type="email" name="email" class="form-control" placeholder="Địa chỉ Email">
                                 </div>
                             </div>
-                            <div class="col-md-12">
+                            <div class="col-md-6">
                                 <div class="form-group">
-                                    <textarea name="" class="form-control" id="" cols="30" 
-                                        placeholder="Nội dung tin nhắn"></textarea>
+                                    <input type="phone" name="phone" class="form-control"  
+                                        placeholder="Số điện thoại">
                                 </div>
                             </div>
                             <div class="col-md-12">

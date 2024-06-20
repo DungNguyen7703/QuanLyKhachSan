@@ -75,7 +75,7 @@
                                 <ul class="sf-menu" id="fh5co-primary-menu">
                                     <li><a href="{{ route('website') }}">Trang chủ</a></li>
                                     <li>
-                                        <a href="{{ route('booking') }}" class="fh5co-sub-ddown">Đặt phòng</a>
+                                        <a href="{{ route('booking') }}" class="fh5co-sub-ddown">Căn hộ</a>
                                     </li>
                                     <li><a href="{{ route('lienhe') }}">Liên hệ</a></li>
                                     <li><a href="{{ route('gioithieu') }}">Giới thiệu</a></li>

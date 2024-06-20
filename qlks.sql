@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 19, 2024 at 01:16 PM
+-- Generation Time: Jun 20, 2024 at 02:42 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -123,7 +123,7 @@ CREATE TABLE `kh` (
   `ten_kh` varchar(255) NOT NULL,
   `sdt` varchar(255) NOT NULL,
   `email` varchar(255) NOT NULL,
-  `diachi` text NOT NULL,
+  `diachi` text DEFAULT NULL,
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
