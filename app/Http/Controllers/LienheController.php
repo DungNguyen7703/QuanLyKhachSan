@@ -24,6 +24,6 @@ class LienheController extends Controller
         $khachHang->save();
 
         // Chuyển hướng hoặc trả về một phản hồi
-        return redirect()->back()->with('success', 'Thông tin đã được lưu thành công!');
+        return redirect(route('getThongBao'))->with('thongbao', 'THÔNG TIN LIÊN HỆ ĐÃ LƯU THÀNH CÔNG');
     }
 }

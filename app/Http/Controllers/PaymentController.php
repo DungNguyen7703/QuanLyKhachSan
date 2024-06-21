@@ -93,7 +93,7 @@ class PaymentController extends Controller
             $request->session()->forget('std');
             $request->session()->forget('end');
 
-            return redirect(route('getThongBao'))->with('thongbao', 'BẠN ĐÃ ĐẶT PHÒNG THÀNH CÔNG');
+            return redirect(route('getThongBao'))->with('thongbao', 'BẠN ĐÃ ĐẶT LỊCH THÀNH CÔNG');
         }
     }
 
